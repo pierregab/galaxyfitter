@@ -106,9 +106,8 @@ outputs and non-checkpoint runs are protected against accidental overwriting.
 
 Use `--sample 10k` for the reported 10k epoch schedule; this does not change the
 input catalogue size. Photometry options are described in `docs/PROTOCOL.md`.
-A full fit is an expensive scientific run; none was launched to assemble this
-package. Do not invoke the fitter directly and assume its defaults are those
-of the paper.
+A full fit is computationally expensive. Use the launcher to apply the paper
+settings; the engine defaults differ from the reported protocol.
 
 A new synthetic catalogue can be generated independently, for example:
 
@@ -122,6 +121,5 @@ Code and documentation: [MIT](LICENSE). Original research data and synthetic
 examples: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 See [attribution and scope](docs/LICENSE_NOTES.md).
 
-[CITATION.cff](CITATION.cff) supplies the software citation metadata. The paper's
-arXiv identifier/DOI and the public repository URL will be added when assigned.
-The repository is prepared locally; no public release is claimed here.
+[CITATION.cff](CITATION.cff) supplies the software citation metadata. Please cite
+the associated paper when using the method or research outputs.

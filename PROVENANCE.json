@@ -2114,7 +2114,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "1606150f7e5f8ce29049f101bc93115f37457ab7425567341ec975753856561f",
+      "sha256": "33d01d57900d1e1291beb0d9320b9c460aacf81c84c22c574b3ba2a3d398795e",
       "change": "new release support file; publication packaging updated: license, documentation, or portable relocated launcher paths (no scientific-default changes)"
     },
     {
@@ -2158,13 +2158,8 @@
       "change": "new release support file"
     },
     {
-      "path": ".DS_Store",
-      "sha256": "9b0632b0efe14d19eaf47bc05778aa4c3ebb3e69f454bfe2149fe5e4a30f6045",
-      "change": "New publication metadata/documentation; no fitting changes"
-    },
-    {
       "path": "CITATION.cff",
-      "sha256": "c7f7405f353c121b995367dd4418e24713f769ac7d054765f1bcb636add16a8f",
+      "sha256": "31b2c8db6005c51d96a0e4fcac25f8da9242d34714ee00370efc22d7831931dd",
       "change": "New publication metadata/documentation; no fitting changes"
     },
     {
