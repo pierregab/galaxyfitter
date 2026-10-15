@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: >-
+  Please cite this software and the associated paper when using the method
+  or research outputs. The paper identifier will be added when available.
+type: software
+title: "Neural equilibrium DF inference for dwarf spheroidal galaxies"
+authors:
+  - family-names: "Bibal Sobeaux"
+    given-names: "Pierre-Gabriel"
+license: MIT
+abstract: >-
+  Companion software for A neural equilibrium distribution-function likelihood
+  for line-of-sight kinematics of dwarf spheroidal galaxies: cusp/core calibration
+  and transfer. Includes the analytic projected fitter, the historical
+  six-coordinate control fitter, mock generators and projected-map reanalysis.
+keywords:
+  - dwarf spheroidal galaxies
+  - dark matter
+  - distribution functions
+  - stellar dynamics

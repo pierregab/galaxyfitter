@@ -1,0 +1,48 @@
+{
+  "halo_type": "nfw_cusped",
+  "seed": 3000,
+  "n_stars": 1000,
+  "G": 4.3009e-06,
+  "M_0_NFW": 500000000.0,
+  "R_S_NFW": 2.0,
+  "A_STAR_target_plummer": 0.1,
+  "M_STAR_TOT_plot_only": 1000000.0,
+  "RA_CENTER": 260.0,
+  "DEC_CENTER": 57.0,
+  "DIST_CENTER": 80.0,
+  "V_SYS_LOS": -290.0,
+  "PM_SYS_RA": 0.04,
+  "PM_SYS_DEC": -0.15,
+  "KAPPA": 4.74047,
+  "noise_preset": "learnable",
+  "R_half_2d_plummer": 0.1,
+  "R_half_2d_empirical": 0.10090030123447477,
+  "tracer_support": {
+    "r05_3d": 0.03961172753067931,
+    "r95_3d": 0.5361888147278903,
+    "r_inner_tracer_3d": 0.007641226376393895,
+    "r_outer_tracer_3d": 2.3749979439787428
+  },
+  "benchmark_radial_range_kpc": [
+    0.010090030123447478,
+    1.0090030123447478
+  ],
+  "noise": {
+    "ERR_ANGLE_MAS_MIN": 0.005,
+    "ERR_ANGLE_MAS_MAX": 0.05,
+    "ERR_DIST_FRAC_MIN": 0.005,
+    "ERR_DIST_FRAC_MAX": 0.03,
+    "ERR_PM_MAS_YR_MIN": 0.002,
+    "ERR_PM_MAS_YR_MAX": 0.02,
+    "ERR_VLOS_MIN": 0.2,
+    "ERR_VLOS_MAX": 2.5
+  },
+  "df_diagnostics": {
+    "raw_df_min": -0.0009030788530987486,
+    "raw_df_max": 0.000651418739460269,
+    "fraction_negative_clipped": 0.0064285714285714285,
+    "df_implied_over_plummer_0p01_10kpc_min": 0.999809246933614,
+    "df_implied_over_plummer_0p01_10kpc_median": 0.9999445270693598,
+    "df_implied_over_plummer_0p01_10kpc_max": 1.0162812475722882
+  }
+}

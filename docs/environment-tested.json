@@ -1,0 +1,12 @@
+{
+  "python": "3.12.13",
+  "platform": "Darwin",
+  "packages": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "pandas": "3.0.2",
+    "matplotlib": "3.10.9",
+    "torch": "2.11.0"
+  },
+  "validation": "CPU statistics/configuration tests and LaTeX figure rendering; no fit run"
+}

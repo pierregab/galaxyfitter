@@ -1,0 +1,2201 @@
+{
+  "source_project": "neo",
+  "assembled": "2026-10-15",
+  "files": [
+    {
+      "path": "fitters/projected.py",
+      "sha256": "c063d263dcb042e8fa4dee9c508b33a6c7fa670bcc77dbdac1a91cd1f860e58b",
+      "source": "experiments/gs2_10k_20260925/grid2d/fitter_v4_families.py",
+      "source_sha256": "c063d263dcb042e8fa4dee9c508b33a6c7fa670bcc77dbdac1a91cd1f860e58b",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "fitters/projected_resume.py",
+      "sha256": "a5a70e239b89c14bf519b977eb5b48ad74cf059c95a0dce824faae967b207b87",
+      "source": "experiments/gs2_10k_20260925/grid2d/fitter_v4_families_resume.py",
+      "source_sha256": "a5a70e239b89c14bf519b977eb5b48ad74cf059c95a0dce824faae967b207b87",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "mocks/data_generation_nfw.py",
+      "sha256": "3ddbabbece9082d9294e95e881f2fa29987cd52e8d6f5346f9c7f9bf5d558b7d",
+      "source": "src/data_generation_nfw.py",
+      "source_sha256": "3ddbabbece9082d9294e95e881f2fa29987cd52e8d6f5346f9c7f9bf5d558b7d",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "mocks/data_generation_burkert.py",
+      "sha256": "3d8129365b00b825304caf98c723c5cf76525023de9ff5078e185c13af4232d8",
+      "source": "src/data_generation_burkert.py",
+      "source_sha256": "3d8129365b00b825304caf98c723c5cf76525023de9ff5078e185c13af4232d8",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "mocks/data_generation_gnfw.py",
+      "sha256": "3f473e01210c0db70f43b790863146b2820f7c24264a9d1cb878866ba3543508",
+      "source": "src/data_generation_gnfw.py",
+      "source_sha256": "3f473e01210c0db70f43b790863146b2820f7c24264a9d1cb878866ba3543508",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "fitters/six_coordinate.py",
+      "sha256": "5112e115ab0386dec77d3f8e5f150362ba099ad3a70fffb6050299611194ef7e",
+      "source": "src/fitter_new.py",
+      "source_sha256": "5112e115ab0386dec77d3f8e5f150362ba099ad3a70fffb6050299611194ef7e",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "scripts/legacy/run_calibration.py",
+      "sha256": "7f7ad3464f5ac88982e177d6cf1ae1f8d394a88c3374804d9ed5b2a315d88261",
+      "source": "src/run_calibration_new.py",
+      "source_sha256": "4c0be58fc3833b91a43c17478db579d60c8a6118117e24be4e9b7773e2746336",
+      "change": "byte-identical copy; publication packaging updated: license, documentation, or portable relocated launcher paths (no scientific-default changes)"
+    },
+    {
+      "path": "analysis/plot_nll_2d.py",
+      "sha256": "0cc50903ed6abf788aa1042b5c5d609f4c38067de36ca7cf7537bbda15d405e7",
+      "change": "Only named functions extracted verbatim; standalone imports/constants",
+      "source": "experiments/gs2_10k_20260925/gs2fix_1k/plot_nll_2d.py",
+      "source_sha256": "53097273c6262209da07a23958fa231df0cf5ce22e7417d7350e2a0b17df50ad"
+    },
+    {
+      "path": "analysis/plot_projected_paper.py",
+      "sha256": "9143495d26e85f3541dc6eb075dc45f0852b9b221f8182d03099fbed1733fef3",
+      "change": "Only named functions extracted verbatim; standalone imports/constants",
+      "source": "src/plot_projected_paper.py",
+      "source_sha256": "601274289ba321e3109013ed39688d3608c9a789bedbdd2dc21998b27802f8fb"
+    },
+    {
+      "path": "analysis/plot_calibrated_test_dual_paper.py",
+      "sha256": "604071cd623077915dfe4ead774567f176c022044b505bd6db98c38e5480ae1e",
+      "change": "Only named functions extracted verbatim; standalone imports/constants",
+      "source": "paper/figures/src/plot_calibrated_test_dual_paper.py",
+      "source_sha256": "f65ae8b9917deebffb080d00527cb5fdd7dbc0fbc6262f70c7fdf0a98f79b906"
+    },
+    {
+      "path": "analysis/plot_validation_panels_paper.py",
+      "sha256": "03d895a0bafe9b9674a587d959bdb728bde7e2e686d60c2bda554e30994e51ef",
+      "change": "Only named functions extracted verbatim; standalone imports/constants",
+      "source": "paper/figures/src/plot_validation_panels_paper.py",
+      "source_sha256": "4340e909ff38d5cdaa91e80fa8118a5000321e956794556741f1d3c037b1d093"
+    },
+    {
+      "path": "analysis/plot_gaia_slope_paper.py",
+      "sha256": "22d191d0ffa6324b2eb19143e7a754aa98c85497b3e680f1f8a15db326e257fc",
+      "change": "Only named functions extracted verbatim; standalone imports/constants",
+      "source": "paper/figures/src/plot_gaia_slope_paper.py",
+      "source_sha256": "d699a7ee583239d5cc7b7e862b6ee1ddea869cdd28f5480575964d89e747f7f4"
+    },
+    {
+      "path": "analysis/publication_style.py",
+      "sha256": "2dddefc1d44178e6e6fdcfb83f5a8a86988ae2c7b32ed32ac5bb81561c5bc8ad",
+      "change": "Relative output root and PATH-resolved external commands; styles unchanged",
+      "source": "paper/figures/src/publication_style.py",
+      "source_sha256": "526ef09bf0da685338637c9b568feaeb023a5387da74a9a6d172c05a66716115"
+    },
+    {
+      "path": "data/families.csv",
+      "sha256": "6690ea0c06b709e38b59c3762d0c10c25d36fd23a337efb6f86aa2cfdf5a910c",
+      "change": "Family labels and display styles only; no old G statistics",
+      "source": "experiments/analytic_kernel_20260915/scan_gain_calibration_20260921/figures/data/fig_proj_ladder_G_rule_points.csv",
+      "source_sha256": "62db6730b6a0ad8a7fca6a79c621581789c1d328ae683c0e1ebea205dd72243a"
+    },
+    {
+      "path": "analysis/paper_numbers_grid2d.py",
+      "sha256": "f92703eee05c834be8adc1bc111612ddd2d25e0c5d5505f0ad84db1ba3dbb5da",
+      "change": "Portable input/output paths and local helper imports; numerical calculations unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/paper_numbers_grid2d.py",
+      "source_sha256": "38e9e17a35dbc1365597233bf6f91d5708239e0d8674589c40ae5d81e76619ec"
+    },
+    {
+      "path": "analysis/paper_figures_grid2d.py",
+      "sha256": "b2eece33b4281182831a59a89e2b139821ca86cf9d40112454b27a4b7bbe6799",
+      "change": "Portable input/output paths and local helper imports; numerical calculations unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/paper_figures_grid2d.py",
+      "source_sha256": "0a541bf156602af45d09c908fcf4bab571942a1a9b2c65ec4ba1eaf12f94ef7e"
+    },
+    {
+      "path": "data/runs_1k/burk_r00p10_s3500/metrics.json",
+      "sha256": "93d0decf846e5c5ec954d8f79b047600f3edc1a2da0d885f095d8ceba4d0fdbe",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burk_r00p10_s3500/metrics.json",
+      "source_sha256": "93d0decf846e5c5ec954d8f79b047600f3edc1a2da0d885f095d8ceba4d0fdbe",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burk_r00p10_s3500/inner_slope_profile_scan_2d.csv",
+      "sha256": "11797858cd6ab0339e29bec1c0521313e7f2bfa897d32e52b0ec14f3ea86bc05",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burk_r00p10_s3500/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "11797858cd6ab0339e29bec1c0521313e7f2bfa897d32e52b0ec14f3ea86bc05",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burk_r00p10_s3500/fit_config.json",
+      "sha256": "78adcf762d74476625de12db59ad287579847f3b0edabd55d95b148d8207b1f1",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burk_r00p10_s3500/fit_config.json",
+      "source_sha256": "79b8bd2e130dba0d3376b5a35708cdc9e6b5a144fc1cc1874f0547710f13e5da"
+    },
+    {
+      "path": "data/runs_1k/burk_r00p18_s3500/metrics.json",
+      "sha256": "d2e1e987ce9c623b84e081477b9e898d15fec2b5bf5da640d2b22d2ae161feea",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burk_r00p18_s3500/metrics.json",
+      "source_sha256": "d2e1e987ce9c623b84e081477b9e898d15fec2b5bf5da640d2b22d2ae161feea",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burk_r00p18_s3500/inner_slope_profile_scan_2d.csv",
+      "sha256": "7ad6cd156cf9681a2ea3b2069651631ef7c1ac610d0528006a5b2912e349f30d",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burk_r00p18_s3500/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "7ad6cd156cf9681a2ea3b2069651631ef7c1ac610d0528006a5b2912e349f30d",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burk_r00p18_s3500/fit_config.json",
+      "sha256": "78adcf762d74476625de12db59ad287579847f3b0edabd55d95b148d8207b1f1",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burk_r00p18_s3500/fit_config.json",
+      "source_sha256": "30c4b159aac5763111044e667ebf0bdc2c7dc0f68a8e740fa098621e44723dca"
+    },
+    {
+      "path": "data/runs_1k/burk_r00p30_s3500/metrics.json",
+      "sha256": "c765700ce3b3ed022a5c4cfed02f47310db055f53fb0db3f1c328e2ae0909a31",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burk_r00p30_s3500/metrics.json",
+      "source_sha256": "c765700ce3b3ed022a5c4cfed02f47310db055f53fb0db3f1c328e2ae0909a31",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burk_r00p30_s3500/inner_slope_profile_scan_2d.csv",
+      "sha256": "5ccbab0e5e03ffa185f50c40905ad5a851040a873b538ebba35ed47a8c8f2df8",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burk_r00p30_s3500/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "5ccbab0e5e03ffa185f50c40905ad5a851040a873b538ebba35ed47a8c8f2df8",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burk_r00p30_s3500/fit_config.json",
+      "sha256": "78adcf762d74476625de12db59ad287579847f3b0edabd55d95b148d8207b1f1",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burk_r00p30_s3500/fit_config.json",
+      "source_sha256": "7bb9bb3323f7c182b1e1469ba7a4ae34bd707500899fbdf8bc55b6e16b70ed6d"
+    },
+    {
+      "path": "data/runs_1k/burk_r00p44_s3500/metrics.json",
+      "sha256": "0b6f086a860ab0ef2ed5bea991423127c0c14d278129c9f22a0e862426d109d0",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burk_r00p44_s3500/metrics.json",
+      "source_sha256": "0b6f086a860ab0ef2ed5bea991423127c0c14d278129c9f22a0e862426d109d0",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burk_r00p44_s3500/inner_slope_profile_scan_2d.csv",
+      "sha256": "6b2fa9df36234c51b155f149c328bbe47836ef3664c9816018e830488cbd98e8",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burk_r00p44_s3500/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "6b2fa9df36234c51b155f149c328bbe47836ef3664c9816018e830488cbd98e8",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burk_r00p44_s3500/fit_config.json",
+      "sha256": "78adcf762d74476625de12db59ad287579847f3b0edabd55d95b148d8207b1f1",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burk_r00p44_s3500/fit_config.json",
+      "source_sha256": "636ad1bf37aff7c76a62a76e93d9b7cc1c750b5111613aa34f3acc12c191c567"
+    },
+    {
+      "path": "data/runs_1k/burk_r00p60_s3500/metrics.json",
+      "sha256": "885b7d9ed1f8b0d9f84bf88a548ed4976a8b75f2c58fab0d6debbb865cfb134c",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burk_r00p60_s3500/metrics.json",
+      "source_sha256": "885b7d9ed1f8b0d9f84bf88a548ed4976a8b75f2c58fab0d6debbb865cfb134c",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burk_r00p60_s3500/inner_slope_profile_scan_2d.csv",
+      "sha256": "d79c24f76b7fc268e81b8b1f1f5221207ff1e48ec5351a5efeaaca64a681b695",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burk_r00p60_s3500/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "d79c24f76b7fc268e81b8b1f1f5221207ff1e48ec5351a5efeaaca64a681b695",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burk_r00p60_s3500/fit_config.json",
+      "sha256": "78adcf762d74476625de12db59ad287579847f3b0edabd55d95b148d8207b1f1",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burk_r00p60_s3500/fit_config.json",
+      "source_sha256": "bf8972c09411857087cdf6ffa6b582414709227971ff5dd46c195f6f74492b20"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3000/metrics.json",
+      "sha256": "25204bc35548afde5b49db7bb766cf26b21256afbebd867ce864f6c6e01f84ac",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3000/metrics.json",
+      "source_sha256": "25204bc35548afde5b49db7bb766cf26b21256afbebd867ce864f6c6e01f84ac",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3000/inner_slope_profile_scan_2d.csv",
+      "sha256": "2c622258fdf5cb38391dc5c906d417d2c9cc65ee8aba3f6f880b007901849cbd",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3000/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "2c622258fdf5cb38391dc5c906d417d2c9cc65ee8aba3f6f880b007901849cbd",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3000/fit_config.json",
+      "sha256": "290bc9a06d316f2d24bf10a7d5a871f33d27201bc7d5950434a30ec7dfbcd976",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3000/fit_config.json",
+      "source_sha256": "041c8906ba90addc12fa3fb48d1828e9cb0b86cce6ad93d9485faabd2b9330c5"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3001/metrics.json",
+      "sha256": "47f20945b7ff5b2c7aa3eda6ddbb5bea401dce3eb0dd4559780b88ffb3368c6d",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3001/metrics.json",
+      "source_sha256": "47f20945b7ff5b2c7aa3eda6ddbb5bea401dce3eb0dd4559780b88ffb3368c6d",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3001/inner_slope_profile_scan_2d.csv",
+      "sha256": "98d0381811c4e41f7e01fd7a66820b7f461a393cd3c59cb3672463db9d686037",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3001/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "98d0381811c4e41f7e01fd7a66820b7f461a393cd3c59cb3672463db9d686037",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3001/fit_config.json",
+      "sha256": "ce8a4e524b28e10c4333b57a2f0abb7596ea02c3ff8db6da5993cdbc2b03fadd",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3001/fit_config.json",
+      "source_sha256": "eb1ff095b5d9628d2ae72235ef946b267105ac9516b65259bc2d1fc37724f401"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3002/metrics.json",
+      "sha256": "c3f36d403eb22dc48e4283db61ecfb59089dfc5eba3fd2e8dfff6ef548e16457",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3002/metrics.json",
+      "source_sha256": "c3f36d403eb22dc48e4283db61ecfb59089dfc5eba3fd2e8dfff6ef548e16457",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3002/inner_slope_profile_scan_2d.csv",
+      "sha256": "c7030c131c58cf8421c98fcf9f96ac2b36ef5fc872661f17fd827a95851d5bf5",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3002/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "c7030c131c58cf8421c98fcf9f96ac2b36ef5fc872661f17fd827a95851d5bf5",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3002/fit_config.json",
+      "sha256": "11fc4ae322ed495ac40cc136c575cf7a3f961c9b4cdf13cffc7c175c576aaeec",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3002/fit_config.json",
+      "source_sha256": "1417ccf07c64006622bce92d73ff6a264285ecff89aa80f5878cc5242ec75835"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3003/metrics.json",
+      "sha256": "7d36d8a1728223cf091e5de79f2ef8d8943cb728338996656d99fa22e55410d2",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3003/metrics.json",
+      "source_sha256": "7d36d8a1728223cf091e5de79f2ef8d8943cb728338996656d99fa22e55410d2",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3003/inner_slope_profile_scan_2d.csv",
+      "sha256": "80651fc7a348081b9af5babbefe763c7f432995ae80f9b4a0ddc7b97f8f21cae",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3003/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "80651fc7a348081b9af5babbefe763c7f432995ae80f9b4a0ddc7b97f8f21cae",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3003/fit_config.json",
+      "sha256": "768e8f8179ce3bec6b2366d9b31681aed12ec67d718974b934dabb31ded4d87c",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3003/fit_config.json",
+      "source_sha256": "bc93f5835b060e24ea4078953beb0659d1f3fe3680bec59464e25a8c93a160f2"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3004/metrics.json",
+      "sha256": "deacdaa6fa2e4b15a1c53957cbc01e7ecfb1035bf15c90e6c9b606c7e8dd89ed",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3004/metrics.json",
+      "source_sha256": "deacdaa6fa2e4b15a1c53957cbc01e7ecfb1035bf15c90e6c9b606c7e8dd89ed",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3004/inner_slope_profile_scan_2d.csv",
+      "sha256": "08a13150587ea1161182a06b0cfbd5fdfd763986b56ca2240830f578f2210e8a",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3004/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "08a13150587ea1161182a06b0cfbd5fdfd763986b56ca2240830f578f2210e8a",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3004/fit_config.json",
+      "sha256": "e6867ff0c40b8608fb38798a8ee3570c55ba42b7745b8d73c059a04b2f1c8d36",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3004/fit_config.json",
+      "source_sha256": "f27c39c78527ef605721aa3a5e182cda98fb4ad6f20d31cd1717f82a4bfa35f0"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3005/metrics.json",
+      "sha256": "94db63a82e21cdf7f8db43813d1ccefefcd2e0f4f2c73047ebe291214206f3a1",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3005/metrics.json",
+      "source_sha256": "94db63a82e21cdf7f8db43813d1ccefefcd2e0f4f2c73047ebe291214206f3a1",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3005/inner_slope_profile_scan_2d.csv",
+      "sha256": "c0b32d7b8797c870297b100f9e27bb9af76a50e0c959e9e08f72ab2bff903399",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3005/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "c0b32d7b8797c870297b100f9e27bb9af76a50e0c959e9e08f72ab2bff903399",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3005/fit_config.json",
+      "sha256": "b0a84e88e5090bf215fd0e59f8c799de4ca670e1235c765c9d581853c2370169",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3005/fit_config.json",
+      "source_sha256": "4a662b33b2e4f3333a11d123db215997501fa5594ad701fd2328d4c317babfe7"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3006/metrics.json",
+      "sha256": "134a502a4a08954fc5c295fcd4442ade46f7cfcffe110374a5ec704f18350e98",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3006/metrics.json",
+      "source_sha256": "134a502a4a08954fc5c295fcd4442ade46f7cfcffe110374a5ec704f18350e98",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3006/inner_slope_profile_scan_2d.csv",
+      "sha256": "15753627ba516dd31d4a785e3528c947441584c8af861a581a4ffb769cdb38be",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3006/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "15753627ba516dd31d4a785e3528c947441584c8af861a581a4ffb769cdb38be",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3006/fit_config.json",
+      "sha256": "feaed4d0ec52a1c7011e7edc4b533fb107261b2b97697d4d9bd0da37327c6037",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3006/fit_config.json",
+      "source_sha256": "38939c255b5d0552a0db28e2a103ce5153b4c1afa5bbca1e5934065e38dba8c2"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3007/metrics.json",
+      "sha256": "584d76d246d3f49bb57260c7cf637132b3840446f649482ff19720e713580c62",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3007/metrics.json",
+      "source_sha256": "584d76d246d3f49bb57260c7cf637132b3840446f649482ff19720e713580c62",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3007/inner_slope_profile_scan_2d.csv",
+      "sha256": "7c5f8ba6764e857b0ea5e490093742f7ef1787231b91346ebd979ef2e57aa34c",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3007/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "7c5f8ba6764e857b0ea5e490093742f7ef1787231b91346ebd979ef2e57aa34c",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3007/fit_config.json",
+      "sha256": "e9f1f9e86e9e18e3ee1c889fcb45120182f92c5fcbe569a2184f7d7accd34887",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3007/fit_config.json",
+      "source_sha256": "dd62535881155c34ad72d83cdf28e87c9ac6492bc9ac3bf1660621b831ca6870"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3008/metrics.json",
+      "sha256": "17763fe8ec2a09fcaa20a0142d9f2852c1bfdb9d2ef807305846d4c05df2331f",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3008/metrics.json",
+      "source_sha256": "17763fe8ec2a09fcaa20a0142d9f2852c1bfdb9d2ef807305846d4c05df2331f",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3008/inner_slope_profile_scan_2d.csv",
+      "sha256": "cf3bcb7ab4383d2942f9a0a1770ec7a9172545384cdcb14743a64536aa888cdc",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3008/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "cf3bcb7ab4383d2942f9a0a1770ec7a9172545384cdcb14743a64536aa888cdc",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3008/fit_config.json",
+      "sha256": "30769cc5af3214a86268e57b93a8ad7dad64c6ae5fbe4e343830a4d60a3231d8",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3008/fit_config.json",
+      "source_sha256": "b86297e3d67e9bac494af0094e45e6a18ba0457eea902bfb38caee7ccc265cf0"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3009/metrics.json",
+      "sha256": "8b03b56d54110273e06ef7b5b6bee7f74352e1e649d339e18c0055ff53bd15c0",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3009/metrics.json",
+      "source_sha256": "8b03b56d54110273e06ef7b5b6bee7f74352e1e649d339e18c0055ff53bd15c0",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3009/inner_slope_profile_scan_2d.csv",
+      "sha256": "e6550d7b7fffd9f59ed6e4ab6e81641dbfb9a855591ce435eee7fbecec828290",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3009/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "e6550d7b7fffd9f59ed6e4ab6e81641dbfb9a855591ce435eee7fbecec828290",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3009/fit_config.json",
+      "sha256": "f0d9f8c5d398534328b7996ffc83e244eded5fe991c3b5b643db552a7601de0d",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3009/fit_config.json",
+      "source_sha256": "3dadc497103ff8c89c495683dd77f483947cedc1368e00e7c6a576b29ecccb6f"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3010/metrics.json",
+      "sha256": "9dc0344eab454850f8196b97d1f05c2b97d4228e7f773b107785f35754ba0988",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3010/metrics.json",
+      "source_sha256": "9dc0344eab454850f8196b97d1f05c2b97d4228e7f773b107785f35754ba0988",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3010/inner_slope_profile_scan_2d.csv",
+      "sha256": "b34a192f849752c55f05554c139e068b72bfe4350c36a152664c33694ed2ecdb",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3010/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "b34a192f849752c55f05554c139e068b72bfe4350c36a152664c33694ed2ecdb",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3010/fit_config.json",
+      "sha256": "508cbbef2bc450bf1485b70f3ff11a41ee58b75c2590b2db76888ec7fe465831",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3010/fit_config.json",
+      "source_sha256": "7a725c057e9570e84eb6f666b2f0d72dc0916ea1e847c7474353a238cf7997c6"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3011/metrics.json",
+      "sha256": "6d06fc3c3cb3dc5ee67c6007501be92833ba5bbcb854dff4d6638bccb3e9c8c3",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3011/metrics.json",
+      "source_sha256": "6d06fc3c3cb3dc5ee67c6007501be92833ba5bbcb854dff4d6638bccb3e9c8c3",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3011/inner_slope_profile_scan_2d.csv",
+      "sha256": "6f847d32dfd89e14ccea81df97e48cd0467495e0643193caee2f66a80bd419fc",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3011/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "6f847d32dfd89e14ccea81df97e48cd0467495e0643193caee2f66a80bd419fc",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3011/fit_config.json",
+      "sha256": "492ec729adacba7b66d4f3f24a4b254b40d2f8cc6a0ce4b5f5affa340ff77432",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3011/fit_config.json",
+      "source_sha256": "9ea2beed6802b9ab75e17f5bdc150aafe423e78fe8fbc4af36bdc43e619fe2f2"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3012/metrics.json",
+      "sha256": "28ac9638b0cf421cab7cf875d05877746d5b6bfb8963829d4503106d91231a96",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3012/metrics.json",
+      "source_sha256": "28ac9638b0cf421cab7cf875d05877746d5b6bfb8963829d4503106d91231a96",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3012/inner_slope_profile_scan_2d.csv",
+      "sha256": "5834cafd99246f305860fe46fa23192b126500ef01889d09e2dacf93b796c1a8",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3012/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "5834cafd99246f305860fe46fa23192b126500ef01889d09e2dacf93b796c1a8",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3012/fit_config.json",
+      "sha256": "986c5bc4681b6b74541f87dc1b09fdff2b57c163dde61be8d19f41feebc4ef08",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3012/fit_config.json",
+      "source_sha256": "75d8013fde0e04fbfcc2215573f9fd1588ef1a0a2fab84458bb1dc3082a5a129"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3013/metrics.json",
+      "sha256": "53b1e373d3ddd6e688b01445f81fd3670aa3c687f1602aed052f1db0191ddf41",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3013/metrics.json",
+      "source_sha256": "53b1e373d3ddd6e688b01445f81fd3670aa3c687f1602aed052f1db0191ddf41",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3013/inner_slope_profile_scan_2d.csv",
+      "sha256": "c4fd1a12af0638ba17a2eabf99ddd129fbdd5efb9b3cb7bcb7a936eb1fbced3a",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3013/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "c4fd1a12af0638ba17a2eabf99ddd129fbdd5efb9b3cb7bcb7a936eb1fbced3a",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3013/fit_config.json",
+      "sha256": "1969fd16863bcf0b1c927e70b3016fdf60455597e3f3bd1a1b5957a1a265bcc6",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3013/fit_config.json",
+      "source_sha256": "4a985e4e6382d3d28b49214afb35843cbf5702145f29288edd72bc255605edfb"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3014/metrics.json",
+      "sha256": "248be67ac13430c6a12028a2746be1d0159de846e378435774e180f41792cd9b",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3014/metrics.json",
+      "source_sha256": "248be67ac13430c6a12028a2746be1d0159de846e378435774e180f41792cd9b",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3014/inner_slope_profile_scan_2d.csv",
+      "sha256": "30d84485e26b6ccf68fe266bbebd200e56e8442f90ac266976c4519ff9953715",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3014/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "30d84485e26b6ccf68fe266bbebd200e56e8442f90ac266976c4519ff9953715",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3014/fit_config.json",
+      "sha256": "63dc3a1b616244ae24b2e744e86fd83a93d904dd3c19796838423303a2469b8b",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3014/fit_config.json",
+      "source_sha256": "aa4aa13d802e3d8be278515b6068df362861c1ae3bb8af16223c49bd67d02536"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3015/metrics.json",
+      "sha256": "14e8fa1f1dc7173a45fafde03f304e328e6123511402bad8cc0b6f2f03533c97",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3015/metrics.json",
+      "source_sha256": "14e8fa1f1dc7173a45fafde03f304e328e6123511402bad8cc0b6f2f03533c97",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3015/inner_slope_profile_scan_2d.csv",
+      "sha256": "b3c6c87f67f9490c21bbcaf7fd3e4a4f36e76021964b637ec5cdb9fca348c573",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3015/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "b3c6c87f67f9490c21bbcaf7fd3e4a4f36e76021964b637ec5cdb9fca348c573",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3015/fit_config.json",
+      "sha256": "aec6f92a74c1ffde6d99f312e410cb6c2ea8c9ee4c2fe379de781443823891db",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3015/fit_config.json",
+      "source_sha256": "73d546779666c081134c8712a4f392072cb5d754b1db792caf5d8db1103be863"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3016/metrics.json",
+      "sha256": "32450cf00af1ebd659d2739865bf87a51c89d4fe60e40b6f5c5d8c0d4155f73e",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3016/metrics.json",
+      "source_sha256": "32450cf00af1ebd659d2739865bf87a51c89d4fe60e40b6f5c5d8c0d4155f73e",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3016/inner_slope_profile_scan_2d.csv",
+      "sha256": "736a9b00a4b44799fce156856247e21f054badd26fc9ba1cdcdc7707c92e8927",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3016/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "736a9b00a4b44799fce156856247e21f054badd26fc9ba1cdcdc7707c92e8927",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3016/fit_config.json",
+      "sha256": "53ae46f75338c9014fd2d41dab02b2f73e3cf5c2eac46cab6dea0c589323e999",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3016/fit_config.json",
+      "source_sha256": "d7b807f5dce217c669492e69fe716c108d7e8ef5116edc583c81754ed7c0318c"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3017/metrics.json",
+      "sha256": "9219e8ea1c3fc91648993c8e8e0fe413ecbc2b6863962630afcb7a7e4393acde",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3017/metrics.json",
+      "source_sha256": "9219e8ea1c3fc91648993c8e8e0fe413ecbc2b6863962630afcb7a7e4393acde",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3017/inner_slope_profile_scan_2d.csv",
+      "sha256": "492c47cba0222796b314de7d8ab1ae0badf169ea30fa8538a0d5d8e727c4cabf",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3017/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "492c47cba0222796b314de7d8ab1ae0badf169ea30fa8538a0d5d8e727c4cabf",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3017/fit_config.json",
+      "sha256": "723df5bc717991689e68afbd6ad448ebf14ebda56a6369fad92a6833be1cc798",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3017/fit_config.json",
+      "source_sha256": "200c75ca6dca2e3bce114b3c87c2ab46c67f8a1a2241cab6aff5fd8e41722ff7"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3018/metrics.json",
+      "sha256": "4dbd942f69b3d27637c4509513bf84c4ecefd9d2b217eb4c6006447040d6d667",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3018/metrics.json",
+      "source_sha256": "4dbd942f69b3d27637c4509513bf84c4ecefd9d2b217eb4c6006447040d6d667",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3018/inner_slope_profile_scan_2d.csv",
+      "sha256": "c247df1cb7aafaafaaf3d2a9b10fc9a328f5bfc78240764fe5346c97d311f7a0",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3018/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "c247df1cb7aafaafaaf3d2a9b10fc9a328f5bfc78240764fe5346c97d311f7a0",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3018/fit_config.json",
+      "sha256": "b02045fd35378c2c6961985842db8c9f6563fb88e854bf6fff430e403be2593e",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3018/fit_config.json",
+      "source_sha256": "cfb882851506ff1cc175390a9feefd58276dcd97c5624cc516624adfa1299ce7"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3019/metrics.json",
+      "sha256": "dd84813c0ca90f1341ff6b7b8beed13ea661f02445cc1a3cf23b5e94b63a6fb6",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3019/metrics.json",
+      "source_sha256": "dd84813c0ca90f1341ff6b7b8beed13ea661f02445cc1a3cf23b5e94b63a6fb6",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3019/inner_slope_profile_scan_2d.csv",
+      "sha256": "65d20b4dfcc18163b3a536edd19831ef59af7d246d56522fd2b2fd70d8fa17d0",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3019/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "65d20b4dfcc18163b3a536edd19831ef59af7d246d56522fd2b2fd70d8fa17d0",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3019/fit_config.json",
+      "sha256": "a1c9093416dbfb704cd54a53354822a339a5dbb59701a8542fa81620a6be5049",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3019/fit_config.json",
+      "source_sha256": "752e844b6031bc78efff57c425b40bc2ff889be063bc961a14607d3f862c88cd"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3020/metrics.json",
+      "sha256": "1fa66b438a220e252f64061e22d56d03faddd5f9a6ed100f078eef2331e0ce77",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3020/metrics.json",
+      "source_sha256": "1fa66b438a220e252f64061e22d56d03faddd5f9a6ed100f078eef2331e0ce77",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3020/inner_slope_profile_scan_2d.csv",
+      "sha256": "b1cbe1813a0f45ae26f7e8f9fcca61ba763ba88870a35ba634bc71ba528efb35",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3020/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "b1cbe1813a0f45ae26f7e8f9fcca61ba763ba88870a35ba634bc71ba528efb35",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3020/fit_config.json",
+      "sha256": "afbd787135cab992f82c25c76b3630e17a9f81b4007fb3f2932610dfb5601eef",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3020/fit_config.json",
+      "source_sha256": "001f50fc32efac4c269c13be396f01c875c4cce4316a61f047d8938ef2b3a781"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3021/metrics.json",
+      "sha256": "a4bf2757ea55196558bc084ed1bc56059a7cdc20aaf7d0184f7545177e6dfc1a",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3021/metrics.json",
+      "source_sha256": "a4bf2757ea55196558bc084ed1bc56059a7cdc20aaf7d0184f7545177e6dfc1a",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3021/inner_slope_profile_scan_2d.csv",
+      "sha256": "2a15656b56a638bb7ea7ccfbadc2764a35210346a9443493eb7e322e5ba5d29c",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3021/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "2a15656b56a638bb7ea7ccfbadc2764a35210346a9443493eb7e322e5ba5d29c",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3021/fit_config.json",
+      "sha256": "e69ca4093e02ce00559d33a5a05c03f6daf88ccbe6d79e47de4ba4081c73e775",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3021/fit_config.json",
+      "source_sha256": "08397e92bd6553cdf1e7ee412420b0988c6d752495db94212e6b43a559039d32"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3022/metrics.json",
+      "sha256": "197af6a5ea7600e630fde4383d205a99ac6b764d60722e0d2e4bf66639ea305f",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3022/metrics.json",
+      "source_sha256": "197af6a5ea7600e630fde4383d205a99ac6b764d60722e0d2e4bf66639ea305f",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3022/inner_slope_profile_scan_2d.csv",
+      "sha256": "8a40cb08340991a2d0d3e775caf9416cc18f29c6b0b5686828aaeaa1b1927038",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3022/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "8a40cb08340991a2d0d3e775caf9416cc18f29c6b0b5686828aaeaa1b1927038",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3022/fit_config.json",
+      "sha256": "b35f0e6ccc4688dcffa0430b5adbb9bfa7182f5afedf48a06ba415c00cd1a038",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3022/fit_config.json",
+      "source_sha256": "beda388b0ecd17c959b875ed662725528d175215aba9ca7a412792900e44f0a2"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3023/metrics.json",
+      "sha256": "81e832aa8885fd1d862e8c176ab291a5b9602d4461a37392138d69c408715202",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3023/metrics.json",
+      "source_sha256": "81e832aa8885fd1d862e8c176ab291a5b9602d4461a37392138d69c408715202",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3023/inner_slope_profile_scan_2d.csv",
+      "sha256": "8faf8afaa95b325623e8cf3e14287336f468aab7ca0b3792410e5b56eafdefa0",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3023/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "8faf8afaa95b325623e8cf3e14287336f468aab7ca0b3792410e5b56eafdefa0",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3023/fit_config.json",
+      "sha256": "b6f5f8c1991798577ce7fbad15d72c921fed89164080f75c305d29efaccd66f9",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3023/fit_config.json",
+      "source_sha256": "f418a859d069036c4a4e95d2e5124086b220d2dc78862880df4beef8d6747ab4"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3024/metrics.json",
+      "sha256": "4b1429a096bf10b2e32ef3c966bcac3fecd42b8be25136efbc465abcf474a796",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3024/metrics.json",
+      "source_sha256": "4b1429a096bf10b2e32ef3c966bcac3fecd42b8be25136efbc465abcf474a796",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3024/inner_slope_profile_scan_2d.csv",
+      "sha256": "650516b24785eb3998dc86eca47deecd122fda9154bb0337956c20b80fd8c2a8",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3024/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "650516b24785eb3998dc86eca47deecd122fda9154bb0337956c20b80fd8c2a8",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3024/fit_config.json",
+      "sha256": "16b1261533dadf5c2551b5f6ec128e85d127b2e93fa51523c1c53aff2e758d55",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3024/fit_config.json",
+      "source_sha256": "4d1311a61a89b8eba447c782b1aaac224abd998191afbcfab16e7ee5af66c568"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3025/metrics.json",
+      "sha256": "ab078ce232fa31f6f10089447d9b38eab3fda5006ee211ec8d423ecbc5d1c622",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3025/metrics.json",
+      "source_sha256": "ab078ce232fa31f6f10089447d9b38eab3fda5006ee211ec8d423ecbc5d1c622",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3025/inner_slope_profile_scan_2d.csv",
+      "sha256": "ba34afae63b9e351e6e4503c032db247b33361944ab0aed8cfd29e4df2febdf3",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3025/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "ba34afae63b9e351e6e4503c032db247b33361944ab0aed8cfd29e4df2febdf3",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3025/fit_config.json",
+      "sha256": "8ade79c8d176adfbdd0fe15cd0bd2367eb4ddec52d90469fe0847a2b99493a87",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3025/fit_config.json",
+      "source_sha256": "c45184e3f06fdd19db8aa82cffc84aa2076a200f5cf5d43d5e413e3303c12d7b"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3026/metrics.json",
+      "sha256": "ac07c24ad6826cc8f8049d4ecd00c5e43ae48645e01cf02e08a4b6f5b769ba4f",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3026/metrics.json",
+      "source_sha256": "ac07c24ad6826cc8f8049d4ecd00c5e43ae48645e01cf02e08a4b6f5b769ba4f",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3026/inner_slope_profile_scan_2d.csv",
+      "sha256": "2ab283febf76e341fa14cb8545c6de3ded70b6c0f1072c390d3b25683cac8ef0",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3026/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "2ab283febf76e341fa14cb8545c6de3ded70b6c0f1072c390d3b25683cac8ef0",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3026/fit_config.json",
+      "sha256": "1e37febeb3495206dbc02841fd14990ed7d02b955087b93f04661a00a6c6301f",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3026/fit_config.json",
+      "source_sha256": "2a99a060cca474253c1907e376e62202714f19af2f147e40e37c6e094e3a57aa"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3027/metrics.json",
+      "sha256": "643f4b95c6f3880724cd5a7cc1aaedf34e4589bc5d9fb1554bd4307ee46ddbd5",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3027/metrics.json",
+      "source_sha256": "643f4b95c6f3880724cd5a7cc1aaedf34e4589bc5d9fb1554bd4307ee46ddbd5",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3027/inner_slope_profile_scan_2d.csv",
+      "sha256": "d0cbba4c628ab89297b57b6b6730f8f11f80d53edb41dcd662622da777fe5194",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3027/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "d0cbba4c628ab89297b57b6b6730f8f11f80d53edb41dcd662622da777fe5194",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3027/fit_config.json",
+      "sha256": "8a35cb1c5dd19db5a3064f52486920edd7e160183f88f31e47cfa885994ec528",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3027/fit_config.json",
+      "source_sha256": "65cf664f0159c320e99d49357d52fd4ccea2fd1df471c4476a9ecb86ddb30753"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3028/metrics.json",
+      "sha256": "7f944637fe22bf0edf22dbff49dee1b86c8ebf990748c89ca854e7a5e72f7887",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3028/metrics.json",
+      "source_sha256": "7f944637fe22bf0edf22dbff49dee1b86c8ebf990748c89ca854e7a5e72f7887",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3028/inner_slope_profile_scan_2d.csv",
+      "sha256": "f0d02e09c974d57ca39cb6db38b317f0f2d752a6e4f3ec33d44c463a7e148ee9",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3028/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "f0d02e09c974d57ca39cb6db38b317f0f2d752a6e4f3ec33d44c463a7e148ee9",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3028/fit_config.json",
+      "sha256": "54cb7fae6415fe82ae6a97bbdb29044ff143d9bb4c6e95a0d927e23b81bb5df0",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3028/fit_config.json",
+      "source_sha256": "9896520b1962aea3187de9ab84e31f34edb1d682a71305f91f5cecd1ee0b3a32"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3029/metrics.json",
+      "sha256": "fc1aba7f94efed90c2e69d44726e275ac9dc0a310193e105ef1fe203c503c1f2",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3029/metrics.json",
+      "source_sha256": "fc1aba7f94efed90c2e69d44726e275ac9dc0a310193e105ef1fe203c503c1f2",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3029/inner_slope_profile_scan_2d.csv",
+      "sha256": "7cda95c925a95c6e4d995731ae90c15d62b9b0abdb426085d738b92c628db5b3",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3029/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "7cda95c925a95c6e4d995731ae90c15d62b9b0abdb426085d738b92c628db5b3",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/burkert_s3029/fit_config.json",
+      "sha256": "fc61d7c1f34f6396f5177a2b03d4ab638b921c2cb9589566e62296670a18d434",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/burkert_s3029/fit_config.json",
+      "source_sha256": "89d48cf3ff32d4740c95fd0ae8973ee72bd3e3fbdedb5b1875803613fc65a087"
+    },
+    {
+      "path": "data/runs_1k/gcore_gs2_1k/metrics.json",
+      "sha256": "f68cbb18ca086ee2afe3d1ab2ff694fcc8d82c263177760c3218f8627f666685",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcore_gs2_1k/metrics.json",
+      "source_sha256": "f68cbb18ca086ee2afe3d1ab2ff694fcc8d82c263177760c3218f8627f666685",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gcore_gs2_1k/inner_slope_profile_scan_2d.csv",
+      "sha256": "cab6b535ec258aa1d397832111059a73c32a2e63bf4740b1dd7b975d40efa8b4",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcore_gs2_1k/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "cab6b535ec258aa1d397832111059a73c32a2e63bf4740b1dd7b975d40efa8b4",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gcore_gs2_1k/fit_config.json",
+      "sha256": "78adcf762d74476625de12db59ad287579847f3b0edabd55d95b148d8207b1f1",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcore_gs2_1k/fit_config.json",
+      "source_sha256": "21776b4dad346cf67bf250184aecb122f24a386d88894332e0e4c990083eed53"
+    },
+    {
+      "path": "data/runs_1k/gcore_s1/metrics.json",
+      "sha256": "627746221ec71d060cd5faf1a76488f9639798a0afe3fd43f4605fbb9fe475e6",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcore_s1/metrics.json",
+      "source_sha256": "627746221ec71d060cd5faf1a76488f9639798a0afe3fd43f4605fbb9fe475e6",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gcore_s1/inner_slope_profile_scan_2d.csv",
+      "sha256": "70309440b7b96db7b868382f15ad653654eba9387e9ec4d7d838245700b8ea5b",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcore_s1/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "70309440b7b96db7b868382f15ad653654eba9387e9ec4d7d838245700b8ea5b",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gcore_s1/fit_config.json",
+      "sha256": "9b947103d3892ed72b23a201b710aef1b0a0be0b65015a8fe5b5a3df8282281e",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcore_s1/fit_config.json",
+      "source_sha256": "512716b463985c32ebc400575e661f938ab5db0d8e737ac0fac8fc92fdf7200e"
+    },
+    {
+      "path": "data/runs_1k/gcore_s2/metrics.json",
+      "sha256": "ac978c874b76a7e8e9f936f66f2ee9a70d7b2164acd49ca0fe296d0455c54a2f",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcore_s2/metrics.json",
+      "source_sha256": "ac978c874b76a7e8e9f936f66f2ee9a70d7b2164acd49ca0fe296d0455c54a2f",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gcore_s2/inner_slope_profile_scan_2d.csv",
+      "sha256": "e5fc12ef652e1ebd5438b53e6ac61a8ef3454b32218a0e983b1a56423fd12349",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcore_s2/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "e5fc12ef652e1ebd5438b53e6ac61a8ef3454b32218a0e983b1a56423fd12349",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gcore_s2/fit_config.json",
+      "sha256": "c6bbb4fc6975ed3c7d4ec3d37147248841059e219dcc4af34a35f2e7eb07a8e0",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcore_s2/fit_config.json",
+      "source_sha256": "2303bcdbeeab70edc72ac4a88efd960f6f4257bb1104950a9cd486fea3f7fa36"
+    },
+    {
+      "path": "data/runs_1k/gcore_s3/metrics.json",
+      "sha256": "50f1f1631b776437441d6c20d9e3377c902b1c8a16d1cc8cb850e335195fa599",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcore_s3/metrics.json",
+      "source_sha256": "50f1f1631b776437441d6c20d9e3377c902b1c8a16d1cc8cb850e335195fa599",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gcore_s3/inner_slope_profile_scan_2d.csv",
+      "sha256": "355f563f988130d140e0fae41c33cfb3e3d94c4691d3ea0e9ca20347f9d53010",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcore_s3/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "355f563f988130d140e0fae41c33cfb3e3d94c4691d3ea0e9ca20347f9d53010",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gcore_s3/fit_config.json",
+      "sha256": "0041db6104fe4097f5b408f14e032a08f988b3ee489c909c7a51019670bdae36",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcore_s3/fit_config.json",
+      "source_sha256": "85432cdae0e8e466e383d7a98fafca6cf2e76b28e571f9b060b91cf2210004c8"
+    },
+    {
+      "path": "data/runs_1k/gcore_s4/metrics.json",
+      "sha256": "99bfdb87adc03cb7fc1dee9bdad74f01816d61b54718ecb37925dd16a240b940",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcore_s4/metrics.json",
+      "source_sha256": "99bfdb87adc03cb7fc1dee9bdad74f01816d61b54718ecb37925dd16a240b940",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gcore_s4/inner_slope_profile_scan_2d.csv",
+      "sha256": "7532c942242140a93df96eee0c084d451a3c425ba0d48a86e035e8cf7e8d91a7",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcore_s4/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "7532c942242140a93df96eee0c084d451a3c425ba0d48a86e035e8cf7e8d91a7",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gcore_s4/fit_config.json",
+      "sha256": "084fee408210a68a713ff9c7c14da24527862af78b812ba3e4f83f7d4a46f42a",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcore_s4/fit_config.json",
+      "source_sha256": "6ec4fe380e54fedf50cac0783113365b9360ae9bd22f74ced2c1c3d690be341d"
+    },
+    {
+      "path": "data/runs_1k/gcusp_gs2_1k/metrics.json",
+      "sha256": "6bdc214ffb68daf7ea4fe5e46b877d00fc66dd951fdfbce1b220b0e360aaed08",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcusp_gs2_1k/metrics.json",
+      "source_sha256": "6bdc214ffb68daf7ea4fe5e46b877d00fc66dd951fdfbce1b220b0e360aaed08",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gcusp_gs2_1k/inner_slope_profile_scan_2d.csv",
+      "sha256": "8dce0952d85ff95e76e4647acbf70244d82a6906f776b338325959a3bcef78f2",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcusp_gs2_1k/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "8dce0952d85ff95e76e4647acbf70244d82a6906f776b338325959a3bcef78f2",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gcusp_gs2_1k/fit_config.json",
+      "sha256": "78adcf762d74476625de12db59ad287579847f3b0edabd55d95b148d8207b1f1",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcusp_gs2_1k/fit_config.json",
+      "source_sha256": "497b9a8975b0f94ec451c00dcc9a5aa65184bc874af8b75a7b7287e86bd6b243"
+    },
+    {
+      "path": "data/runs_1k/gcusp_s1/metrics.json",
+      "sha256": "0ba0743168cc55ca8f1ae85907261f7fc85b8577c2ad74ed3fa3c071d0f13e8c",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcusp_s1/metrics.json",
+      "source_sha256": "0ba0743168cc55ca8f1ae85907261f7fc85b8577c2ad74ed3fa3c071d0f13e8c",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gcusp_s1/inner_slope_profile_scan_2d.csv",
+      "sha256": "392d7366f704be1d2b36dbb94b83beed5e965a06a706273a4ef458ffa9dd2df0",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcusp_s1/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "392d7366f704be1d2b36dbb94b83beed5e965a06a706273a4ef458ffa9dd2df0",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gcusp_s1/fit_config.json",
+      "sha256": "9b947103d3892ed72b23a201b710aef1b0a0be0b65015a8fe5b5a3df8282281e",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcusp_s1/fit_config.json",
+      "source_sha256": "4bf97eee2202f89e61be3ffa4b501b88cc045b90019202e37f6c09af103c07e4"
+    },
+    {
+      "path": "data/runs_1k/gcusp_s2/metrics.json",
+      "sha256": "f8ff1c029912c127cf1c1744d5cb26e13a7909550302c74f9c46458270fbb64a",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcusp_s2/metrics.json",
+      "source_sha256": "f8ff1c029912c127cf1c1744d5cb26e13a7909550302c74f9c46458270fbb64a",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gcusp_s2/inner_slope_profile_scan_2d.csv",
+      "sha256": "7ecd12c1b299494179dd3fc56665fdcfe35606065da5d598c4493d10e5233f91",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcusp_s2/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "7ecd12c1b299494179dd3fc56665fdcfe35606065da5d598c4493d10e5233f91",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gcusp_s2/fit_config.json",
+      "sha256": "c6bbb4fc6975ed3c7d4ec3d37147248841059e219dcc4af34a35f2e7eb07a8e0",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcusp_s2/fit_config.json",
+      "source_sha256": "e5dbf0dd08e62557293a63f2e97304bfc56186b1313bd4ba49bfc6e307f08b85"
+    },
+    {
+      "path": "data/runs_1k/gcusp_s3/metrics.json",
+      "sha256": "1dfbebd59345bfd862add39bc6ca52c503e5ad0e0d8daae7c54a8ef997a5cd06",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcusp_s3/metrics.json",
+      "source_sha256": "1dfbebd59345bfd862add39bc6ca52c503e5ad0e0d8daae7c54a8ef997a5cd06",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gcusp_s3/inner_slope_profile_scan_2d.csv",
+      "sha256": "2e40ff3338ff3611c2be11d3bd4a1e487874e642e51da0022c0828a51d003530",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcusp_s3/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "2e40ff3338ff3611c2be11d3bd4a1e487874e642e51da0022c0828a51d003530",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gcusp_s3/fit_config.json",
+      "sha256": "0041db6104fe4097f5b408f14e032a08f988b3ee489c909c7a51019670bdae36",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gcusp_s3/fit_config.json",
+      "source_sha256": "68eb348d8547d94c42253c87fc23e8e66051179bb896a2c4a91be8cf91154761"
+    },
+    {
+      "path": "data/runs_1k/gnfw0_s3300/metrics.json",
+      "sha256": "9b90cefc9c663067ebe806a7b67d84a86e8e45fcb3ec1b5cd57d5f3f9dfb3d2b",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0_s3300/metrics.json",
+      "source_sha256": "9b90cefc9c663067ebe806a7b67d84a86e8e45fcb3ec1b5cd57d5f3f9dfb3d2b",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0_s3300/inner_slope_profile_scan_2d.csv",
+      "sha256": "9c136f83b2d813dcadac45651aec93b357042d712a8eed4e364e47b9a43f455c",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0_s3300/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "9c136f83b2d813dcadac45651aec93b357042d712a8eed4e364e47b9a43f455c",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0_s3300/fit_config.json",
+      "sha256": "bff48c09302c2e6024bf89d14d5e0d6b933d4fdf8e62084921b273413da5fb4c",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0_s3300/fit_config.json",
+      "source_sha256": "ba6353560f75d6d7aeabcca9a12a1b52790149654ef01d983084f4f4d556c3e5"
+    },
+    {
+      "path": "data/runs_1k/gnfw0_s3301/metrics.json",
+      "sha256": "228970d728b751833b44ba8d2c3fe28a742ce30c0ca95e2409c33d8306421c82",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0_s3301/metrics.json",
+      "source_sha256": "228970d728b751833b44ba8d2c3fe28a742ce30c0ca95e2409c33d8306421c82",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0_s3301/inner_slope_profile_scan_2d.csv",
+      "sha256": "300ea5c8ebfa92c996dd228621dc291adc722d1355e90e147e207af290729e49",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0_s3301/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "300ea5c8ebfa92c996dd228621dc291adc722d1355e90e147e207af290729e49",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0_s3301/fit_config.json",
+      "sha256": "f48fad340e3df8e8e3c26f71d4f60c4295758e22166670e9941dc8976e0007d6",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0_s3301/fit_config.json",
+      "source_sha256": "ddfabb9ed4707ff2e2e44deb58ba754f0ae22f49769625be4d6b9b61f5ed7317"
+    },
+    {
+      "path": "data/runs_1k/gnfw0_s3400/metrics.json",
+      "sha256": "44d61140fb2d7aec11a2b3461f01d8f4d994d1c6d3f2c58a8aa13c89f5912fcf",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0_s3400/metrics.json",
+      "source_sha256": "44d61140fb2d7aec11a2b3461f01d8f4d994d1c6d3f2c58a8aa13c89f5912fcf",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0_s3400/inner_slope_profile_scan_2d.csv",
+      "sha256": "448380e5db5c3a438f50d65bbeb66f423852d2fd68e33fe283eb7555e0504ce1",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0_s3400/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "448380e5db5c3a438f50d65bbeb66f423852d2fd68e33fe283eb7555e0504ce1",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0_s3400/fit_config.json",
+      "sha256": "6d91d8d47a8010a86496aa24b876afa470064bf433f78845b222b7f8ba0b58cf",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0_s3400/fit_config.json",
+      "source_sha256": "8cd922cdb8f5340113b6e81ad57140fe4e5f9e96b970aa765af6e32d45de32dc"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p125_s3300/metrics.json",
+      "sha256": "e90a4e98c8e18b0c7db70befb30bd7f008c63e2a7daf6c6a98aab308262bd18a",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p125_s3300/metrics.json",
+      "source_sha256": "e90a4e98c8e18b0c7db70befb30bd7f008c63e2a7daf6c6a98aab308262bd18a",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p125_s3300/inner_slope_profile_scan_2d.csv",
+      "sha256": "2173557a9f01f74765fcf2766303ef6a1c2a40470984663fa3b84a40133ddf72",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p125_s3300/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "2173557a9f01f74765fcf2766303ef6a1c2a40470984663fa3b84a40133ddf72",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p125_s3300/fit_config.json",
+      "sha256": "bff48c09302c2e6024bf89d14d5e0d6b933d4fdf8e62084921b273413da5fb4c",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p125_s3300/fit_config.json",
+      "source_sha256": "c08aff8608565f5f2a8332686a555667a61730e77ef1626e6d49e59aaac51b06"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p1875_s3400/metrics.json",
+      "sha256": "8953ceb220fdef02833d88cc0e19a4c9eff983456802945ebaf70d710ed28cf0",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p1875_s3400/metrics.json",
+      "source_sha256": "8953ceb220fdef02833d88cc0e19a4c9eff983456802945ebaf70d710ed28cf0",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p1875_s3400/inner_slope_profile_scan_2d.csv",
+      "sha256": "a8dda53cf190c7b967c707291cfd7720773601575d4ef0f139cde4a63052fdce",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p1875_s3400/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "a8dda53cf190c7b967c707291cfd7720773601575d4ef0f139cde4a63052fdce",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p1875_s3400/fit_config.json",
+      "sha256": "6d91d8d47a8010a86496aa24b876afa470064bf433f78845b222b7f8ba0b58cf",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p1875_s3400/fit_config.json",
+      "source_sha256": "2c4d310121be57e4fc2b5b775f290b656e022245d85ae5b807deee59057d2da9"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p25_s3300/metrics.json",
+      "sha256": "91f8d1ac4e54c9fadb0378c32c5456fd997211087725d20a12ccb04692ac072e",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p25_s3300/metrics.json",
+      "source_sha256": "91f8d1ac4e54c9fadb0378c32c5456fd997211087725d20a12ccb04692ac072e",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p25_s3300/inner_slope_profile_scan_2d.csv",
+      "sha256": "063e83680c215bd74c869c7aec03725a1756bdefd707221b6070433864a6bc13",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p25_s3300/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "063e83680c215bd74c869c7aec03725a1756bdefd707221b6070433864a6bc13",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p25_s3300/fit_config.json",
+      "sha256": "bff48c09302c2e6024bf89d14d5e0d6b933d4fdf8e62084921b273413da5fb4c",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p25_s3300/fit_config.json",
+      "source_sha256": "c2915af52c8262785348e432127dfcaea968280e07922863f1e47a82b0408bb4"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p375_s3300/metrics.json",
+      "sha256": "84c912266d0cab726f94b931270e84fb5ae87ea2c6f65fb7df274975dfb2e38a",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p375_s3300/metrics.json",
+      "source_sha256": "84c912266d0cab726f94b931270e84fb5ae87ea2c6f65fb7df274975dfb2e38a",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p375_s3300/inner_slope_profile_scan_2d.csv",
+      "sha256": "7bd2615e547c1971a69a886764f46c83f95660bbd42b828de851c4d89569e00a",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p375_s3300/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "7bd2615e547c1971a69a886764f46c83f95660bbd42b828de851c4d89569e00a",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p375_s3300/fit_config.json",
+      "sha256": "bff48c09302c2e6024bf89d14d5e0d6b933d4fdf8e62084921b273413da5fb4c",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p375_s3300/fit_config.json",
+      "source_sha256": "6dbb97e782668ae281d62731eefc6024ff579df8bc7afc93de5bde5ce0649167"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p375_s3400/metrics.json",
+      "sha256": "7d33d92b05472e2157f7d41cf9282a15c58c686c5d64fca11f43b04ab1bb1e4e",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p375_s3400/metrics.json",
+      "source_sha256": "7d33d92b05472e2157f7d41cf9282a15c58c686c5d64fca11f43b04ab1bb1e4e",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p375_s3400/inner_slope_profile_scan_2d.csv",
+      "sha256": "205bd1487539ac034ab9903fe0e1e29dc8300a8a838543381bb819a9e7dd1ba1",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p375_s3400/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "205bd1487539ac034ab9903fe0e1e29dc8300a8a838543381bb819a9e7dd1ba1",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p375_s3400/fit_config.json",
+      "sha256": "6d91d8d47a8010a86496aa24b876afa470064bf433f78845b222b7f8ba0b58cf",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p375_s3400/fit_config.json",
+      "source_sha256": "0d2944750d52a0c50423c30ce2485341cfb8b511b6c79908d1720415ea3b586b"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p5625_s3400/metrics.json",
+      "sha256": "3bea9355cceb6dacd44896a03dca63e900f039233154b552e05c8ae1cdc908be",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p5625_s3400/metrics.json",
+      "source_sha256": "3bea9355cceb6dacd44896a03dca63e900f039233154b552e05c8ae1cdc908be",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p5625_s3400/inner_slope_profile_scan_2d.csv",
+      "sha256": "e8df64ed086f69f9e879994bce4f1562c43f83e3943657b0c2b15369aa495de4",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p5625_s3400/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "e8df64ed086f69f9e879994bce4f1562c43f83e3943657b0c2b15369aa495de4",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p5625_s3400/fit_config.json",
+      "sha256": "6d91d8d47a8010a86496aa24b876afa470064bf433f78845b222b7f8ba0b58cf",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p5625_s3400/fit_config.json",
+      "source_sha256": "078d84af1365ff2519302c9f7edebc02f27cc20bbc849c76afebf0fd1156e288"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p5_s3300/metrics.json",
+      "sha256": "de1b7c4e688e812103357fa04473dcf6cf92b9ed0445f1bbd476324e9b7ccc18",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p5_s3300/metrics.json",
+      "source_sha256": "de1b7c4e688e812103357fa04473dcf6cf92b9ed0445f1bbd476324e9b7ccc18",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p5_s3300/inner_slope_profile_scan_2d.csv",
+      "sha256": "d4065256c70ba1ae263124628a46de793effe5c781965c29825a7b2d1a14c963",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p5_s3300/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "d4065256c70ba1ae263124628a46de793effe5c781965c29825a7b2d1a14c963",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p5_s3300/fit_config.json",
+      "sha256": "bff48c09302c2e6024bf89d14d5e0d6b933d4fdf8e62084921b273413da5fb4c",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p5_s3300/fit_config.json",
+      "source_sha256": "5f296461315c7ba843a7567713a00e1aa1cb441de3c8c3832cc27b5c62784e88"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p625_s3300/metrics.json",
+      "sha256": "6fc92cb2ab787b70f28aae97f9378bc5e9d6ee57b04e5cba5e7f489de21fdde0",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p625_s3300/metrics.json",
+      "source_sha256": "6fc92cb2ab787b70f28aae97f9378bc5e9d6ee57b04e5cba5e7f489de21fdde0",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p625_s3300/inner_slope_profile_scan_2d.csv",
+      "sha256": "a1604b4f9aaa84abc715d258766568cbfc187940aa5877bd4c21748e7f646f98",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p625_s3300/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "a1604b4f9aaa84abc715d258766568cbfc187940aa5877bd4c21748e7f646f98",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p625_s3300/fit_config.json",
+      "sha256": "bff48c09302c2e6024bf89d14d5e0d6b933d4fdf8e62084921b273413da5fb4c",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p625_s3300/fit_config.json",
+      "source_sha256": "7331978b501ef0ca1a6ce9beeb4c4138d5a8400cb178dfbe063dc0df9a3aebeb"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p75_s3300/metrics.json",
+      "sha256": "a5ef7fe5cb9f59b3fb6a42c3157052ffc0b5264c8553d82c2eb49b817431a1a6",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p75_s3300/metrics.json",
+      "source_sha256": "a5ef7fe5cb9f59b3fb6a42c3157052ffc0b5264c8553d82c2eb49b817431a1a6",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p75_s3300/inner_slope_profile_scan_2d.csv",
+      "sha256": "5fff2c2d6946356f039bb1106e8f99a5811c3b237e33a0bb8bc2af1cc3e830b5",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p75_s3300/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "5fff2c2d6946356f039bb1106e8f99a5811c3b237e33a0bb8bc2af1cc3e830b5",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p75_s3300/fit_config.json",
+      "sha256": "bff48c09302c2e6024bf89d14d5e0d6b933d4fdf8e62084921b273413da5fb4c",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p75_s3300/fit_config.json",
+      "source_sha256": "25300b47700869aa4e554283caefcff1a7d5dae3075411ee1072747c50febb8f"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p75_s3400/metrics.json",
+      "sha256": "f266247bf19900c00eb5f5ebd3701400349ad8361459facba92a5bea0b6b115b",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p75_s3400/metrics.json",
+      "source_sha256": "f266247bf19900c00eb5f5ebd3701400349ad8361459facba92a5bea0b6b115b",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p75_s3400/inner_slope_profile_scan_2d.csv",
+      "sha256": "6451d95ffc3e8e6e2a0fc404c022f9e18792b5a5d0987df77e38e66f9b192902",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p75_s3400/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "6451d95ffc3e8e6e2a0fc404c022f9e18792b5a5d0987df77e38e66f9b192902",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p75_s3400/fit_config.json",
+      "sha256": "6d91d8d47a8010a86496aa24b876afa470064bf433f78845b222b7f8ba0b58cf",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p75_s3400/fit_config.json",
+      "source_sha256": "cb731449b7cedac007aac7da051d43167356c15c3e74ebddf9168285b6c6a81c"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p875_s3300/metrics.json",
+      "sha256": "cfa0b93bf7c0b46ce7c20b48c8ec28c33b99d0e4eab9e807f11f1c704dfeef6d",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p875_s3300/metrics.json",
+      "source_sha256": "cfa0b93bf7c0b46ce7c20b48c8ec28c33b99d0e4eab9e807f11f1c704dfeef6d",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p875_s3300/inner_slope_profile_scan_2d.csv",
+      "sha256": "563cee4c4ec5dc3420293b888036e4df4f4a1fca90aaaaa74c7c9f218b0ef846",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p875_s3300/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "563cee4c4ec5dc3420293b888036e4df4f4a1fca90aaaaa74c7c9f218b0ef846",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw0p875_s3300/fit_config.json",
+      "sha256": "bff48c09302c2e6024bf89d14d5e0d6b933d4fdf8e62084921b273413da5fb4c",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw0p875_s3300/fit_config.json",
+      "source_sha256": "013f20eafa4dfa6ef34d5938d12a590acbe1bd75ec262e7aee6b25fd14577f0e"
+    },
+    {
+      "path": "data/runs_1k/gnfw1_s3300/metrics.json",
+      "sha256": "ce8e1bf03b29d7a5b53eb09dd24b307116e0900d072c22198aed84199331b284",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw1_s3300/metrics.json",
+      "source_sha256": "ce8e1bf03b29d7a5b53eb09dd24b307116e0900d072c22198aed84199331b284",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw1_s3300/inner_slope_profile_scan_2d.csv",
+      "sha256": "97e017104fc6bd8eb6cdcc716e9f39b5d20ac5339d1f5361e721f7a3d8bc7191",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw1_s3300/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "97e017104fc6bd8eb6cdcc716e9f39b5d20ac5339d1f5361e721f7a3d8bc7191",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/gnfw1_s3300/fit_config.json",
+      "sha256": "bff48c09302c2e6024bf89d14d5e0d6b933d4fdf8e62084921b273413da5fb4c",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/gnfw1_s3300/fit_config.json",
+      "source_sha256": "a956356265d7ea030915c51fa6fed3803e44381ec2b4c096c845bf3c6d70145f"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3000/metrics.json",
+      "sha256": "12dc108ea3d6712e8c22144c8482bfd2ec09e827fa3c606c6d15a242cb9f1635",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3000/metrics.json",
+      "source_sha256": "12dc108ea3d6712e8c22144c8482bfd2ec09e827fa3c606c6d15a242cb9f1635",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3000/inner_slope_profile_scan_2d.csv",
+      "sha256": "5b4508baefe71686fddb57b15267e2f5d1c8f8bd16b1fe584a12d998ea1b3d14",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3000/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "5b4508baefe71686fddb57b15267e2f5d1c8f8bd16b1fe584a12d998ea1b3d14",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3000/fit_config.json",
+      "sha256": "290bc9a06d316f2d24bf10a7d5a871f33d27201bc7d5950434a30ec7dfbcd976",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3000/fit_config.json",
+      "source_sha256": "57a4302749d7dfb0745dc280c5622ca791e1c59c28a8d8e50e0ea078d19d9183"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3001/metrics.json",
+      "sha256": "0cc814d64f7a508e8dd3b4edacc99cb700e0e2b053bfa253a980f9833862424d",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3001/metrics.json",
+      "source_sha256": "0cc814d64f7a508e8dd3b4edacc99cb700e0e2b053bfa253a980f9833862424d",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3001/inner_slope_profile_scan_2d.csv",
+      "sha256": "c1c031005e96084df6b97ffc364a0f004cf5cb75216abdcbbae200fb270c2c4b",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3001/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "c1c031005e96084df6b97ffc364a0f004cf5cb75216abdcbbae200fb270c2c4b",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3001/fit_config.json",
+      "sha256": "ce8a4e524b28e10c4333b57a2f0abb7596ea02c3ff8db6da5993cdbc2b03fadd",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3001/fit_config.json",
+      "source_sha256": "c068bfba3e6b933e87885c6c2275f589ffa8329ab705e8c9a1b1e2f6f0af622b"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3002/metrics.json",
+      "sha256": "c637f2330c891114480924362c31939aec7fd84c352a5c2773f669ae095cd9bf",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3002/metrics.json",
+      "source_sha256": "c637f2330c891114480924362c31939aec7fd84c352a5c2773f669ae095cd9bf",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3002/inner_slope_profile_scan_2d.csv",
+      "sha256": "5c780479c6a7c62e0ef400cdfceb24e976c3a336b3962c6eb7766ec239ee0727",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3002/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "5c780479c6a7c62e0ef400cdfceb24e976c3a336b3962c6eb7766ec239ee0727",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3002/fit_config.json",
+      "sha256": "11fc4ae322ed495ac40cc136c575cf7a3f961c9b4cdf13cffc7c175c576aaeec",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3002/fit_config.json",
+      "source_sha256": "c5ef1d4e07678a33b11eeb31dbdd44fab076bd2af9382236814b92e65f7b4e8e"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3003/metrics.json",
+      "sha256": "130c2094889f62807b0337a18bb4c93b3c2d6f685fc39a28526f7eecfa3e65c6",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3003/metrics.json",
+      "source_sha256": "130c2094889f62807b0337a18bb4c93b3c2d6f685fc39a28526f7eecfa3e65c6",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3003/inner_slope_profile_scan_2d.csv",
+      "sha256": "e2c4d14441e8b2e4820d5f7ffc3dd4d7b956171884f41ac22cc4bdfc3f236f67",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3003/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "e2c4d14441e8b2e4820d5f7ffc3dd4d7b956171884f41ac22cc4bdfc3f236f67",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3003/fit_config.json",
+      "sha256": "768e8f8179ce3bec6b2366d9b31681aed12ec67d718974b934dabb31ded4d87c",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3003/fit_config.json",
+      "source_sha256": "ab77009e10e90962b48d10532302c37215b256225bd1ddda54887491b21e7d74"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3004/metrics.json",
+      "sha256": "c612f4183e2a8f87c35c82f3769c40cad55d9a9098dd361e60caddaf18ecc26a",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3004/metrics.json",
+      "source_sha256": "c612f4183e2a8f87c35c82f3769c40cad55d9a9098dd361e60caddaf18ecc26a",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3004/inner_slope_profile_scan_2d.csv",
+      "sha256": "05bb5c01b339c9aff48a5ab54040cb46fb676969a1af3e729443da2029fc08d3",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3004/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "05bb5c01b339c9aff48a5ab54040cb46fb676969a1af3e729443da2029fc08d3",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3004/fit_config.json",
+      "sha256": "e6867ff0c40b8608fb38798a8ee3570c55ba42b7745b8d73c059a04b2f1c8d36",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3004/fit_config.json",
+      "source_sha256": "47898f7b039001892f49d6c5ae0a4d1fcb8bf8b8cb527fc8d735030be6ab17f2"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3005/metrics.json",
+      "sha256": "91bdd41bf071cfaa67f9d4701924374a830e4ae1ed00df5ed43c2a346d461a09",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3005/metrics.json",
+      "source_sha256": "91bdd41bf071cfaa67f9d4701924374a830e4ae1ed00df5ed43c2a346d461a09",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3005/inner_slope_profile_scan_2d.csv",
+      "sha256": "8d9502f375ac62085e7c061a54ebcb1747eb9b0543fc01249e1e0da52ca6b08d",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3005/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "8d9502f375ac62085e7c061a54ebcb1747eb9b0543fc01249e1e0da52ca6b08d",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3005/fit_config.json",
+      "sha256": "b0a84e88e5090bf215fd0e59f8c799de4ca670e1235c765c9d581853c2370169",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3005/fit_config.json",
+      "source_sha256": "a5c4051a03f1c3a6a8d103c7aad53baa78ea989961c59cf948ded5b4920ec72d"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3006/metrics.json",
+      "sha256": "7a99e992254ebe9bec25938622c6c2916a465b26be8d4278a1f0b536bb2416c9",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3006/metrics.json",
+      "source_sha256": "7a99e992254ebe9bec25938622c6c2916a465b26be8d4278a1f0b536bb2416c9",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3006/inner_slope_profile_scan_2d.csv",
+      "sha256": "be26a2d226dfb4534c5701a84c367d919a668ee7511403877d6214f967b81a34",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3006/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "be26a2d226dfb4534c5701a84c367d919a668ee7511403877d6214f967b81a34",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3006/fit_config.json",
+      "sha256": "feaed4d0ec52a1c7011e7edc4b533fb107261b2b97697d4d9bd0da37327c6037",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3006/fit_config.json",
+      "source_sha256": "5c509fa5a607f76d37c3ba6110b0560729da62c60d252c1cfc019394493a8080"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3007/metrics.json",
+      "sha256": "6f4f40f44841440445d4eba5698e2fead5c5df3ddc7c8ad978ae4a9efce19b4a",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3007/metrics.json",
+      "source_sha256": "6f4f40f44841440445d4eba5698e2fead5c5df3ddc7c8ad978ae4a9efce19b4a",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3007/inner_slope_profile_scan_2d.csv",
+      "sha256": "8957ad3419247644e69dcc9d5e618518e4855f365f683773c859218dce8bc70a",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3007/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "8957ad3419247644e69dcc9d5e618518e4855f365f683773c859218dce8bc70a",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3007/fit_config.json",
+      "sha256": "e9f1f9e86e9e18e3ee1c889fcb45120182f92c5fcbe569a2184f7d7accd34887",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3007/fit_config.json",
+      "source_sha256": "0e3b731e83c6c8d2df7bcebb3319c4e83c612e2881ff311a0846ee610be9254b"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3008/metrics.json",
+      "sha256": "9a0cb27594d195d4687e9739d0efc61b595e34a7b2a69b769a555baef61bc729",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3008/metrics.json",
+      "source_sha256": "9a0cb27594d195d4687e9739d0efc61b595e34a7b2a69b769a555baef61bc729",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3008/inner_slope_profile_scan_2d.csv",
+      "sha256": "51704bd8754ee8bbcaf1288d806f4c7f49fdc0416d44d0a5495119fb4898b328",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3008/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "51704bd8754ee8bbcaf1288d806f4c7f49fdc0416d44d0a5495119fb4898b328",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3008/fit_config.json",
+      "sha256": "30769cc5af3214a86268e57b93a8ad7dad64c6ae5fbe4e343830a4d60a3231d8",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3008/fit_config.json",
+      "source_sha256": "847b908efb3decb44c50c66dd929c2c282a5fee7bca75a25b219ca9c906b837c"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3009/metrics.json",
+      "sha256": "8156a0c46eb8308ae3a20d742ae57200b7fa7fee825a8fa6a35706fe946214ad",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3009/metrics.json",
+      "source_sha256": "8156a0c46eb8308ae3a20d742ae57200b7fa7fee825a8fa6a35706fe946214ad",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3009/inner_slope_profile_scan_2d.csv",
+      "sha256": "e0f4e3587bacdb41c0cf1e1ac6d2c8e183dcbffd0030925206511993b61177b6",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3009/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "e0f4e3587bacdb41c0cf1e1ac6d2c8e183dcbffd0030925206511993b61177b6",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3009/fit_config.json",
+      "sha256": "f0d9f8c5d398534328b7996ffc83e244eded5fe991c3b5b643db552a7601de0d",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3009/fit_config.json",
+      "source_sha256": "6318c17a208cecb2c156635becfdae3c5b079a2da3d620d0fffcd0414c582f35"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3010/metrics.json",
+      "sha256": "888c3285463bdd4eb9753e4b7ea7c9967f20a582c70e85585a77074e766e379f",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3010/metrics.json",
+      "source_sha256": "888c3285463bdd4eb9753e4b7ea7c9967f20a582c70e85585a77074e766e379f",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3010/inner_slope_profile_scan_2d.csv",
+      "sha256": "19d1e4d223055e70939c7a1d41e365ab42ec3fb6946907e2ae01288270262829",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3010/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "19d1e4d223055e70939c7a1d41e365ab42ec3fb6946907e2ae01288270262829",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3010/fit_config.json",
+      "sha256": "508cbbef2bc450bf1485b70f3ff11a41ee58b75c2590b2db76888ec7fe465831",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3010/fit_config.json",
+      "source_sha256": "79d4487addc536b2a70145a0e003fc09e41d3530061a67a71d5d3747875b33ee"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3011/metrics.json",
+      "sha256": "cd437838a5d87a29ef924d15fd5a82599fe1d24940792d99a31e7f2dc03d7c7c",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3011/metrics.json",
+      "source_sha256": "cd437838a5d87a29ef924d15fd5a82599fe1d24940792d99a31e7f2dc03d7c7c",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3011/inner_slope_profile_scan_2d.csv",
+      "sha256": "6e213db46eac9769f00432d3f3308923b200bee357ca5a48bd3e0e60f57e3497",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3011/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "6e213db46eac9769f00432d3f3308923b200bee357ca5a48bd3e0e60f57e3497",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3011/fit_config.json",
+      "sha256": "492ec729adacba7b66d4f3f24a4b254b40d2f8cc6a0ce4b5f5affa340ff77432",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3011/fit_config.json",
+      "source_sha256": "0b0445a044db97951010ca60c7d657f63f53cc65c2eb33aebb39d1f63b8f6541"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3012/metrics.json",
+      "sha256": "6a2c422a1b49d58bb012d705874ab61dbcd6bf4ab4bb9beb815f6199359f2d78",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3012/metrics.json",
+      "source_sha256": "6a2c422a1b49d58bb012d705874ab61dbcd6bf4ab4bb9beb815f6199359f2d78",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3012/inner_slope_profile_scan_2d.csv",
+      "sha256": "0c14ea7d84a13d843dbbc6fa691277b1141e7f29e1d9e10bf6faee0573b6e979",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3012/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "0c14ea7d84a13d843dbbc6fa691277b1141e7f29e1d9e10bf6faee0573b6e979",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3012/fit_config.json",
+      "sha256": "986c5bc4681b6b74541f87dc1b09fdff2b57c163dde61be8d19f41feebc4ef08",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3012/fit_config.json",
+      "source_sha256": "49bab35481312c9a5dce75b9b1065124f5b0af24b7acd44e6fcd5b2e658250ee"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3013/metrics.json",
+      "sha256": "f1ffdca96039369d0a023f7845c36e5f6b666fea71d5f866152997e905fef4c5",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3013/metrics.json",
+      "source_sha256": "f1ffdca96039369d0a023f7845c36e5f6b666fea71d5f866152997e905fef4c5",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3013/inner_slope_profile_scan_2d.csv",
+      "sha256": "e012079a9c049fcebfc2f0d477d5a579a5b3941b9604e9c095ddaa8bbba915b8",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3013/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "e012079a9c049fcebfc2f0d477d5a579a5b3941b9604e9c095ddaa8bbba915b8",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3013/fit_config.json",
+      "sha256": "1969fd16863bcf0b1c927e70b3016fdf60455597e3f3bd1a1b5957a1a265bcc6",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3013/fit_config.json",
+      "source_sha256": "4bc179e075961374bb5d1d855fe58a31b7bef804ee343437dce8201a1350dad8"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3014/metrics.json",
+      "sha256": "cc637064c04e0529159f73f49daf2557ee64b889a19b872a30de6874635f5408",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3014/metrics.json",
+      "source_sha256": "cc637064c04e0529159f73f49daf2557ee64b889a19b872a30de6874635f5408",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3014/inner_slope_profile_scan_2d.csv",
+      "sha256": "7f8f35be2e876165e428b1985ea46c066a2e80d5186ec1fb0e1d09d0ee16c30e",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3014/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "7f8f35be2e876165e428b1985ea46c066a2e80d5186ec1fb0e1d09d0ee16c30e",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3014/fit_config.json",
+      "sha256": "63dc3a1b616244ae24b2e744e86fd83a93d904dd3c19796838423303a2469b8b",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3014/fit_config.json",
+      "source_sha256": "d8d385cb838e67f7df3f4665f5dffd144ae66cde511b99d7fcdeffb0dcf2fb64"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3015/metrics.json",
+      "sha256": "f414624935723d7bbb5920578996e9f2e80b4dcc0319b8ec020a46f0ced3a770",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3015/metrics.json",
+      "source_sha256": "f414624935723d7bbb5920578996e9f2e80b4dcc0319b8ec020a46f0ced3a770",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3015/inner_slope_profile_scan_2d.csv",
+      "sha256": "d2ed15e5f38a23e07ea2a05026b5e24f7916c3069e029a1e7d0060cc8dc0b714",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3015/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "d2ed15e5f38a23e07ea2a05026b5e24f7916c3069e029a1e7d0060cc8dc0b714",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3015/fit_config.json",
+      "sha256": "aec6f92a74c1ffde6d99f312e410cb6c2ea8c9ee4c2fe379de781443823891db",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3015/fit_config.json",
+      "source_sha256": "d256c8502f37c2c0d6937411be0eb4ca433a8c3404e559166831bf894cf30c7b"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3016/metrics.json",
+      "sha256": "c4e311f9f36436662f58c6d905b2452f04d016dc5804ee9ed7d81bacd5e6a5d8",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3016/metrics.json",
+      "source_sha256": "c4e311f9f36436662f58c6d905b2452f04d016dc5804ee9ed7d81bacd5e6a5d8",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3016/inner_slope_profile_scan_2d.csv",
+      "sha256": "d6b4a9a73bc1a0ffc562294fdc875ce3b0512e2d55ea1add03840b082e9f4c17",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3016/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "d6b4a9a73bc1a0ffc562294fdc875ce3b0512e2d55ea1add03840b082e9f4c17",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3016/fit_config.json",
+      "sha256": "53ae46f75338c9014fd2d41dab02b2f73e3cf5c2eac46cab6dea0c589323e999",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3016/fit_config.json",
+      "source_sha256": "84c13eb97cc90cb22f89f03cf19eca4bb06a4ba2eb2215dcb256ff412b97c18c"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3017/metrics.json",
+      "sha256": "3b7b050a6843b96366fecdcf9479e25a7be2e5bf9f9de059170d3ab082c81f7b",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3017/metrics.json",
+      "source_sha256": "3b7b050a6843b96366fecdcf9479e25a7be2e5bf9f9de059170d3ab082c81f7b",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3017/inner_slope_profile_scan_2d.csv",
+      "sha256": "1ea056d21c3fa136e28c1d43be07d84f5f847ea85e454aeca6475440f4ae363a",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3017/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "1ea056d21c3fa136e28c1d43be07d84f5f847ea85e454aeca6475440f4ae363a",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3017/fit_config.json",
+      "sha256": "723df5bc717991689e68afbd6ad448ebf14ebda56a6369fad92a6833be1cc798",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3017/fit_config.json",
+      "source_sha256": "283282a7c5311f6f2f15c6cb41f392a65e30fc865d57ca84e47aa8af5396ab40"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3018/metrics.json",
+      "sha256": "1b4b1659e1f1897698f03089a3c5289b2d45c1873fa168d1538c504eeb6dcac5",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3018/metrics.json",
+      "source_sha256": "1b4b1659e1f1897698f03089a3c5289b2d45c1873fa168d1538c504eeb6dcac5",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3018/inner_slope_profile_scan_2d.csv",
+      "sha256": "2c505bc965da2bbe97f1e1f5eaf801b8951dd86fe538fd82a972da509e37e19f",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3018/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "2c505bc965da2bbe97f1e1f5eaf801b8951dd86fe538fd82a972da509e37e19f",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3018/fit_config.json",
+      "sha256": "b02045fd35378c2c6961985842db8c9f6563fb88e854bf6fff430e403be2593e",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3018/fit_config.json",
+      "source_sha256": "8a5ad806bef77451c54b125046544b1078b22ae5428bfad91988c3ec6e30b0dd"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3019/metrics.json",
+      "sha256": "ae00125d5937e1668a09eee89f169b1061199f91d9d404222a2783ac0649f160",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3019/metrics.json",
+      "source_sha256": "ae00125d5937e1668a09eee89f169b1061199f91d9d404222a2783ac0649f160",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3019/inner_slope_profile_scan_2d.csv",
+      "sha256": "be812997951db0e592d101a8da1d56d368b5f545e7de5cc3da07abd4844e13ad",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3019/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "be812997951db0e592d101a8da1d56d368b5f545e7de5cc3da07abd4844e13ad",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3019/fit_config.json",
+      "sha256": "a1c9093416dbfb704cd54a53354822a339a5dbb59701a8542fa81620a6be5049",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3019/fit_config.json",
+      "source_sha256": "7184f6d5b29f752f4a3033a3bdd1931046cc90b5f322fd80c56ab29d5b2d8b07"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3020/metrics.json",
+      "sha256": "de410efca93dcf5c97cfdb19d780e4d27e80c2363a3b755b05f63a69c17e3586",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3020/metrics.json",
+      "source_sha256": "de410efca93dcf5c97cfdb19d780e4d27e80c2363a3b755b05f63a69c17e3586",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3020/inner_slope_profile_scan_2d.csv",
+      "sha256": "c662ce3adbdcf9c6133858dbc951b4ce40ee4a32aab8e5b48637fe6cc9fa30c5",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3020/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "c662ce3adbdcf9c6133858dbc951b4ce40ee4a32aab8e5b48637fe6cc9fa30c5",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3020/fit_config.json",
+      "sha256": "afbd787135cab992f82c25c76b3630e17a9f81b4007fb3f2932610dfb5601eef",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3020/fit_config.json",
+      "source_sha256": "4a32939bdf5155fb8b55b97771986884541a0f59a3aaa1c43bb37ba329f59145"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3021/metrics.json",
+      "sha256": "98d8fff55ae6b30254190f7f72fb25de21396f85d49f67059060c4f05c30bf2d",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3021/metrics.json",
+      "source_sha256": "98d8fff55ae6b30254190f7f72fb25de21396f85d49f67059060c4f05c30bf2d",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3021/inner_slope_profile_scan_2d.csv",
+      "sha256": "1b65e132440bcc365470d6f453b5513e269ebeb669717941da516800b35e84ac",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3021/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "1b65e132440bcc365470d6f453b5513e269ebeb669717941da516800b35e84ac",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3021/fit_config.json",
+      "sha256": "e69ca4093e02ce00559d33a5a05c03f6daf88ccbe6d79e47de4ba4081c73e775",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3021/fit_config.json",
+      "source_sha256": "003a3b19e4972fb888ae803c19d9e53ec3c11e182d0385eeb30af58dd2f5b611"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3022/metrics.json",
+      "sha256": "0ebbc720b51699a913fa08c311239fae04aa3837b0d87b231736e0ac7fe93339",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3022/metrics.json",
+      "source_sha256": "0ebbc720b51699a913fa08c311239fae04aa3837b0d87b231736e0ac7fe93339",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3022/inner_slope_profile_scan_2d.csv",
+      "sha256": "1a2f92d7405cfcd773dd6982a0987d8a05583cef48b494f145d2c39662f94da6",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3022/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "1a2f92d7405cfcd773dd6982a0987d8a05583cef48b494f145d2c39662f94da6",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3022/fit_config.json",
+      "sha256": "b35f0e6ccc4688dcffa0430b5adbb9bfa7182f5afedf48a06ba415c00cd1a038",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3022/fit_config.json",
+      "source_sha256": "4ebe671b6b743e838a52e9eee3221f328945da4820782e05c8e2d767c33eae66"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3023/metrics.json",
+      "sha256": "fc3597f6808edf291624b16dee8f6173268344595601c0da5e8c3007c8999c7b",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3023/metrics.json",
+      "source_sha256": "fc3597f6808edf291624b16dee8f6173268344595601c0da5e8c3007c8999c7b",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3023/inner_slope_profile_scan_2d.csv",
+      "sha256": "b6a456479c4068e80ca1cbcc02881abd93a19acd0350c18c011bfe302273ef53",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3023/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "b6a456479c4068e80ca1cbcc02881abd93a19acd0350c18c011bfe302273ef53",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3023/fit_config.json",
+      "sha256": "b6f5f8c1991798577ce7fbad15d72c921fed89164080f75c305d29efaccd66f9",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3023/fit_config.json",
+      "source_sha256": "ebc91eaf9b7681ac1b23752b3e8b212d7c2f3e143ef8f47af23412ecd931e019"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3024/metrics.json",
+      "sha256": "426c42fd8627a2ba0fde61adf0ecb12fe9f3ac6e575fd48971f555239a798032",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3024/metrics.json",
+      "source_sha256": "426c42fd8627a2ba0fde61adf0ecb12fe9f3ac6e575fd48971f555239a798032",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3024/inner_slope_profile_scan_2d.csv",
+      "sha256": "133cd70b71cf152ca9727ba6a968c5072fbd7d493dc08302c7e43485045fbb92",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3024/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "133cd70b71cf152ca9727ba6a968c5072fbd7d493dc08302c7e43485045fbb92",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3024/fit_config.json",
+      "sha256": "16b1261533dadf5c2551b5f6ec128e85d127b2e93fa51523c1c53aff2e758d55",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3024/fit_config.json",
+      "source_sha256": "64faf34d655c0d3de8946ac6a568f94948ef330034e8b3e5440149e3993c8cf1"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3025/metrics.json",
+      "sha256": "4006fd7a7b24755a6d295e9cde0c2bbdce01112b46841c88cf8a2d6ff28efa49",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3025/metrics.json",
+      "source_sha256": "4006fd7a7b24755a6d295e9cde0c2bbdce01112b46841c88cf8a2d6ff28efa49",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3025/inner_slope_profile_scan_2d.csv",
+      "sha256": "a335e6f7c973353fc22a530f19c694eaf044cc1c921d4a3e4d791eee3c9e36d1",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3025/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "a335e6f7c973353fc22a530f19c694eaf044cc1c921d4a3e4d791eee3c9e36d1",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3025/fit_config.json",
+      "sha256": "8ade79c8d176adfbdd0fe15cd0bd2367eb4ddec52d90469fe0847a2b99493a87",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3025/fit_config.json",
+      "source_sha256": "a6766518915cc1ccf942fbb88524722d3fac25a099e80f58dfada1aa4283f759"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3026/metrics.json",
+      "sha256": "6da77234e95711e0809c249e2a9733be437dafcb4fc292f07e4db712c7f2e1ec",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3026/metrics.json",
+      "source_sha256": "6da77234e95711e0809c249e2a9733be437dafcb4fc292f07e4db712c7f2e1ec",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3026/inner_slope_profile_scan_2d.csv",
+      "sha256": "7884e6dc9d388d73a8e54c693966f21333f39d318bdb01d895a5ba3581026f52",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3026/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "7884e6dc9d388d73a8e54c693966f21333f39d318bdb01d895a5ba3581026f52",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3026/fit_config.json",
+      "sha256": "1e37febeb3495206dbc02841fd14990ed7d02b955087b93f04661a00a6c6301f",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3026/fit_config.json",
+      "source_sha256": "43a72042024ff344f0e8537b80a4b0a7cdb08c6e76076187a788c4c2d5a5baa3"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3027/metrics.json",
+      "sha256": "1d80e31422a280f33bde79fbee6ea89fb5c56d4629d42d05c9f5e10987dc906a",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3027/metrics.json",
+      "source_sha256": "1d80e31422a280f33bde79fbee6ea89fb5c56d4629d42d05c9f5e10987dc906a",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3027/inner_slope_profile_scan_2d.csv",
+      "sha256": "3af939134105f4e0fceaf237f23bcae00f8d32e7f500a3fbfac05d9234374ad5",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3027/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "3af939134105f4e0fceaf237f23bcae00f8d32e7f500a3fbfac05d9234374ad5",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3027/fit_config.json",
+      "sha256": "8a35cb1c5dd19db5a3064f52486920edd7e160183f88f31e47cfa885994ec528",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3027/fit_config.json",
+      "source_sha256": "fbd7a41cadf55153bba8f1e8c1db250e9ae41269ec1964bffcd608e38944a518"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3028/metrics.json",
+      "sha256": "b444d3702c2bb1f6174e84eba05ea7efde999bdfb2bd1d6e1c7c995a2c0d6f93",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3028/metrics.json",
+      "source_sha256": "b444d3702c2bb1f6174e84eba05ea7efde999bdfb2bd1d6e1c7c995a2c0d6f93",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3028/inner_slope_profile_scan_2d.csv",
+      "sha256": "09c87f6d21c6928bac24f0aaeb6bf3d0709239d4683d5cc9a0af05859f002ccd",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3028/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "09c87f6d21c6928bac24f0aaeb6bf3d0709239d4683d5cc9a0af05859f002ccd",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3028/fit_config.json",
+      "sha256": "54cb7fae6415fe82ae6a97bbdb29044ff143d9bb4c6e95a0d927e23b81bb5df0",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3028/fit_config.json",
+      "source_sha256": "db8efbacb126d6c8e10ad9fb9ec00778b499d23380dd3872b252d39b66280a0d"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3029/metrics.json",
+      "sha256": "8359a2ab9a07dae71f85ab021b2ce39cf9af9356aeb7c3fc7b21bb6f8844427d",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3029/metrics.json",
+      "source_sha256": "8359a2ab9a07dae71f85ab021b2ce39cf9af9356aeb7c3fc7b21bb6f8844427d",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3029/inner_slope_profile_scan_2d.csv",
+      "sha256": "f6e0ea3e267d028c54d2ed367676739b4ef65ab50b01a5fa12f563d260c8fd63",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3029/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "f6e0ea3e267d028c54d2ed367676739b4ef65ab50b01a5fa12f563d260c8fd63",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_1k/nfw_s3029/fit_config.json",
+      "sha256": "fc61d7c1f34f6396f5177a2b03d4ab638b921c2cb9589566e62296670a18d434",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_1k/nfw_s3029/fit_config.json",
+      "source_sha256": "7bd4df96118ba989e170a8e9b72d15934dbf43a2b787c29c96d0dc1c6ef833af"
+    },
+    {
+      "path": "data/runs_10k/gcore_gs2_10k/metrics.json",
+      "sha256": "f1ec27214eb54f1ea9ebcb68af115190ff7c4996269dcf894ad5d228d58ba068",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_10k/gcore_gs2_10k/metrics.json",
+      "source_sha256": "f1ec27214eb54f1ea9ebcb68af115190ff7c4996269dcf894ad5d228d58ba068",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_10k/gcore_gs2_10k/inner_slope_profile_scan_2d.csv",
+      "sha256": "75977eacdf5ec02734aea721e9d73e6006a5e9cbc19308d19023c792c05d2541",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_10k/gcore_gs2_10k/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "75977eacdf5ec02734aea721e9d73e6006a5e9cbc19308d19023c792c05d2541",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_10k/gcore_gs2_10k/fit_config.json",
+      "sha256": "3be93466a55b2a4f96d20757fd7d0e4200d1111a39da4d994c0b46594000f13f",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_10k/gcore_gs2_10k/fit_config.json",
+      "source_sha256": "4d40a29a90129d68379b17d8e6b09287b7fb8454aee3fc1bc23aac7df181f638"
+    },
+    {
+      "path": "data/runs_10k/gcusp_gs2_10k/metrics.json",
+      "sha256": "b666c91c5a45606eacebff1d13cc6e7015ef8c9d6f845737c91540ed7a591244",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_10k/gcusp_gs2_10k/metrics.json",
+      "source_sha256": "b666c91c5a45606eacebff1d13cc6e7015ef8c9d6f845737c91540ed7a591244",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_10k/gcusp_gs2_10k/inner_slope_profile_scan_2d.csv",
+      "sha256": "40d229cb677eb95581df0d71922854e0431a450f8b4bbdf41ddf912e1fbd25f8",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_10k/gcusp_gs2_10k/inner_slope_profile_scan_2d.csv",
+      "source_sha256": "40d229cb677eb95581df0d71922854e0431a450f8b4bbdf41ddf912e1fbd25f8",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/runs_10k/gcusp_gs2_10k/fit_config.json",
+      "sha256": "e5452c30ceb962e9817456c06413f094c8e43096480f94b12344f5c05edc6046",
+      "change": "Machine-specific input/output paths replaced by explicit placeholders; scientific settings unchanged",
+      "source": "experiments/gs2_10k_20260925/grid2d/runs_10k/gcusp_gs2_10k/fit_config.json",
+      "source_sha256": "c957e10a407118f82e9217df058ac52b99c48c2aba8e516260dd36cd5cdcf1d7"
+    },
+    {
+      "path": "data/gs2_published_comparison.csv",
+      "sha256": "9dd90d64416bdbc11be018f4212f21460c8e1160e93706bec23a86f1aa49e492",
+      "source": "experiments/gs2_10k_20260925/grid2d/gs2_published_comparison.csv",
+      "source_sha256": "9dd90d64416bdbc11be018f4212f21460c8e1160e93706bec23a86f1aa49e492",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "reference/paper_numbers_grid2d.json",
+      "sha256": "cc6c2fc7d0a704637eb5a63494065ef1294c4cb82edd06600de612b44ff57b15",
+      "source": "experiments/gs2_10k_20260925/grid2d/paper_numbers_grid2d.json",
+      "source_sha256": "cc6c2fc7d0a704637eb5a63494065ef1294c4cb82edd06600de612b44ff57b15",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "reference/paper_numbers_grid2d_runs.csv",
+      "sha256": "83c696a275f240ec54badd8d1debf82b2be615dfe96d949fc4b028afa7b78e63",
+      "source": "experiments/gs2_10k_20260925/grid2d/paper_numbers_grid2d_runs.csv",
+      "source_sha256": "83c696a275f240ec54badd8d1debf82b2be615dfe96d949fc4b028afa7b78e63",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/gs2_profiles/gravsphere2_PlumCoreOm.npz",
+      "sha256": "041dad26b15713c37417135b7b4592b2661d5d6026ff86ce44588c711cd34cf6",
+      "source": "gravsphere/gravsphere2/profiles/gravsphere2_PlumCoreOm.npz",
+      "source_sha256": "041dad26b15713c37417135b7b4592b2661d5d6026ff86ce44588c711cd34cf6",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/gs2_profiles/gravsphere2_PlumCoreOm_10k.npz",
+      "sha256": "93f4d4cf4a6e0ac0cbf45adcc91fe0b0c9287741887b1a85f2becd5ee163ac53",
+      "source": "gravsphere/gravsphere2/profiles/gravsphere2_PlumCoreOm_10k.npz",
+      "source_sha256": "93f4d4cf4a6e0ac0cbf45adcc91fe0b0c9287741887b1a85f2becd5ee163ac53",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/gs2_profiles/gravsphere2_PlumCuspOm.npz",
+      "sha256": "e4d6d937c961fb977bcd4f403e36680df3552dbc5852ff47373629c21c1d4bc9",
+      "source": "gravsphere/gravsphere2/profiles/gravsphere2_PlumCuspOm.npz",
+      "source_sha256": "e4d6d937c961fb977bcd4f403e36680df3552dbc5852ff47373629c21c1d4bc9",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "data/gs2_profiles/gravsphere2_PlumCuspOm_10k.npz",
+      "sha256": "a98fab3a48bff96fd831f54deda8171ede21267f10ea4972c96d9ad36025eb87",
+      "source": "gravsphere/gravsphere2/profiles/gravsphere2_PlumCuspOm_10k.npz",
+      "source_sha256": "a98fab3a48bff96fd831f54deda8171ede21267f10ea4972c96d9ad36025eb87",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "examples/nfw_s3000/draco_nfw_observations.csv",
+      "sha256": "4b011e464eee33c730b3e4000937335ee22cf8402d0c65d051a75f8a50565870",
+      "source": "runs/calibration_nfw_burkert/mocks/nfw_s3000/draco_nfw_observations.csv",
+      "source_sha256": "4b011e464eee33c730b3e4000937335ee22cf8402d0c65d051a75f8a50565870",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "examples/nfw_s3000/draco_nfw_truth_galactocentric.csv",
+      "sha256": "1bd8b72220a78ce86502abc51deecc6741f43160616c3ece857b117cbb6c4a96",
+      "source": "runs/calibration_nfw_burkert/mocks/nfw_s3000/draco_nfw_truth_galactocentric.csv",
+      "source_sha256": "1bd8b72220a78ce86502abc51deecc6741f43160616c3ece857b117cbb6c4a96",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "examples/nfw_s3000/mock_metadata.json",
+      "sha256": "f76e5732df36c961838b80984489807f72d2d0928de64ad1c11a0b99a58c18a1",
+      "source": "runs/calibration_nfw_burkert/mocks/nfw_s3000/mock_metadata.json",
+      "source_sha256": "f76e5732df36c961838b80984489807f72d2d0928de64ad1c11a0b99a58c18a1",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "examples/nfw_s3000/truth_profile.csv",
+      "sha256": "a5059bc639be728864f8e383bfe144d49c8996b9281d4874d07908f0c11ac85f",
+      "source": "runs/calibration_nfw_burkert/mocks/nfw_s3000/truth_profile.csv",
+      "source_sha256": "a5059bc639be728864f8e383bfe144d49c8996b9281d4874d07908f0c11ac85f",
+      "change": "byte-identical copy"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "adc8c21020a42ea4e891b87534ada5561c5d197968aa756cb1f8a65910d9442d",
+      "change": "new release support file"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "2329b2f54b3b7970e8754fbfa082986a520a711aab2b68ec60bf5333864fdd81",
+      "change": "new release support file"
+    },
+    {
+      "path": "README.md",
+      "sha256": "1606150f7e5f8ce29049f101bc93115f37457ab7425567341ec975753856561f",
+      "change": "new release support file; publication packaging updated: license, documentation, or portable relocated launcher paths (no scientific-default changes)"
+    },
+    {
+      "path": "data/paper_numbers_grid2d.json",
+      "sha256": "cc6c2fc7d0a704637eb5a63494065ef1294c4cb82edd06600de612b44ff57b15",
+      "change": "recomputed and verified against archived reference"
+    },
+    {
+      "path": "data/paper_numbers_grid2d_runs.csv",
+      "sha256": "83c696a275f240ec54badd8d1debf82b2be615dfe96d949fc4b028afa7b78e63",
+      "change": "recomputed and verified against archived reference"
+    },
+    {
+      "path": "docs/LICENSE_NOTES.md",
+      "sha256": "d229aadc9eda25fabb9d1acac9b26cd5182a9bf1670467ae78fac764c480ed65",
+      "change": "new release support file; publication packaging updated: license, documentation, or portable relocated launcher paths (no scientific-default changes)"
+    },
+    {
+      "path": "docs/PROTOCOL.md",
+      "sha256": "1ca63cfd8d22af80d5236a30dbd5a100d5fd3d17df1f59039ace50fb8fe5b68b",
+      "change": "new release support file; publication packaging updated: license, documentation, or portable relocated launcher paths (no scientific-default changes)"
+    },
+    {
+      "path": "docs/environment-tested.json",
+      "sha256": "568de305a552941de4881ffbac592b6448ba1d800fa9bc9f82f238204d0253d0",
+      "change": "new release support file"
+    },
+    {
+      "path": "scripts/fit_projected.py",
+      "sha256": "410eb6e11ceadce59fbe66cab8ba4368a5b98e7c84e45b79521eab36e91350c0",
+      "change": "new release support file"
+    },
+    {
+      "path": "scripts/reproduce.py",
+      "sha256": "21eef5f6a352fe9bfa358b82b3d1a5c6fbce781f0c8797b5631b70cbcb320c5f",
+      "change": "new release support file"
+    },
+    {
+      "path": "tests/check_release.py",
+      "sha256": "a4a59f2ae943e1b06d361ed7e42ce813288bb4919e6b4518646942055b84f2b9",
+      "change": "new release support file"
+    },
+    {
+      "path": ".DS_Store",
+      "sha256": "9b0632b0efe14d19eaf47bc05778aa4c3ebb3e69f454bfe2149fe5e4a30f6045",
+      "change": "New publication metadata/documentation; no fitting changes"
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "c7f7405f353c121b995367dd4418e24713f769ac7d054765f1bcb636add16a8f",
+      "change": "New publication metadata/documentation; no fitting changes"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "ce9a992d1a6927b0277eb9b5556d1c249bacc063cdb7c9970bf0028746fcc8fe",
+      "change": "New publication metadata/documentation; no fitting changes"
+    },
+    {
+      "path": "data/LICENSE.md",
+      "sha256": "4e2997eeda4accd40d5903d28db369961fd5d4da2057ad46f9d2ebf2afbd677d",
+      "change": "New publication metadata/documentation; no fitting changes"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "sha256": "422203309dc44a6526e0bf51a85506cf9f513fae84d323cd0f7e247dbe8afd99",
+      "change": "New publication metadata/documentation; no fitting changes"
+    },
+    {
+      "path": "examples/LICENSE.md",
+      "sha256": "4e2997eeda4accd40d5903d28db369961fd5d4da2057ad46f9d2ebf2afbd677d",
+      "change": "New publication metadata/documentation; no fitting changes"
+    },
+    {
+      "path": "reference/LICENSE.md",
+      "sha256": "4e2997eeda4accd40d5903d28db369961fd5d4da2057ad46f9d2ebf2afbd677d",
+      "change": "New publication metadata/documentation; no fitting changes"
+    }
+  ],
+  "license": {
+    "code": "MIT",
+    "original_research_data": "CC-BY-4.0",
+    "details": "docs/LICENSE_NOTES.md"
+  }
+}
